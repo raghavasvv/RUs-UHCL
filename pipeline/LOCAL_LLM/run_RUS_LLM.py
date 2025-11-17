@@ -1,28 +1,38 @@
 """
 run_RUS_LLM.py
 --------------------------------------------------------
-Executes Reflector Units (RUs) locally using Ollama (llama3).
-NO memory reset. Memory, reflection, plan all persist & append.
-Guaranteed forced option-only responses (no blank answers).
+Runs Reflector Units (RUs) locally using an Ollama model
+(llama3 by default). This replaces the OpenAI API version.
+
+This script:
+    • Loads existing Reflector Units (synthetic_RUS.json)
+    • Loads Psychometrics questions
+    • Builds contextual prompts using Memory / Reflection / Plan
+    • Sends prompts to Ollama (local llama3)
+    • Extracts a valid Likert-style response
+    • Stores responses in JSONL + CSV
+    • Appends Memory, Reflection, Plan persistently
+
 --------------------------------------------------------
 """
 
+# =====================================================
+# 1. Imports and dynamic path setup
+# =====================================================
 import json
 import os
+import sys
 import time
 import csv
+import random
 import statistics
 import requests
-import random
-from datetime import datetime, UTC
 from pathlib import Path
-import sys
+from datetime import datetime, UTC
 
-# =====================================================
-# FIX IMPORT PATH (ALWAYS LOAD PROJECT ROOT)
-# =====================================================
+# Dynamically detect project root no matter how folder is named
 CURRENT_FILE = Path(__file__).resolve()
-PROJECT_ROOT = CURRENT_FILE.parents[2]     # LOCAL_LLM → pipeline → ROOT
+PROJECT_ROOT = CURRENT_FILE.parents[2]        # LOCAL_LLM → pipeline → PROJECT_ROOT
 sys.path.append(str(PROJECT_ROOT))
 
 from pipeline.memory_manager import MemoryManager
@@ -30,70 +40,96 @@ from pipeline.reflection_manager import ReflectionManager
 from pipeline.plan_manager import PlanManager
 
 # =====================================================
-# FILE CONFIG
+# 2. File paths
 # =====================================================
-ROOT = PROJECT_ROOT
+RUS_FILE = PROJECT_ROOT / "RUS" / "synthetic_RUS.json"
+QUESTION_FILE = PROJECT_ROOT / "questions" / "Psychometrics.json"
+RESULTS_DIR = PROJECT_ROOT / "results" / "local_llm_results"
 
-# CHANGE THESE TWO:
-RUS_FILE = ROOT / "RUS" / "generated_RUS_20251117_114503.json"
-QUESTION_FILE = ROOT / "questions" / "my_custom_questions.json"
+NUM_RUs_TO_RUN = 2  # professor can change this anytime
 
-RESULTS_DIR = ROOT / "results" / "local_llm_results"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-NUM_RUs_TO_RUN = 5
-
-RESULTS_FILE_JSONL = RESULTS_DIR / f"local_responses_RUS{NUM_RUs_TO_RUN}.jsonl"
-RESULTS_FILE_CSV   = RESULTS_DIR / f"local_responses_RUS{NUM_RUs_TO_RUN}.csv"
-METRICS_FILE       = RESULTS_DIR / f"local_metrics_RUS{NUM_RUs_TO_RUN}.json"
+RESULTS_JSONL = RESULTS_DIR / f"local_responses_RUS{NUM_RUs_TO_RUN}.jsonl"
+RESULTS_CSV   = RESULTS_DIR / f"local_responses_RUS{NUM_RUs_TO_RUN}.csv"
+METRICS_FILE  = RESULTS_DIR / f"local_metrics_RUS{NUM_RUs_TO_RUN}.json"
 
 # =====================================================
-# INITIALIZE MANAGERS
+# 3. Cognitive managers (persistent)
 # =====================================================
-memory_manager = MemoryManager(ROOT / "memory")
-reflection_manager = ReflectionManager(ROOT / "reflections")
-plan_manager = PlanManager(ROOT / "plans")
+memory_manager = MemoryManager(PROJECT_ROOT / "memory")
+reflection_manager = ReflectionManager(PROJECT_ROOT / "reflections")
+plan_manager = PlanManager(PROJECT_ROOT / "plans")
 
 # =====================================================
-# LOAD RUs
+# 4. Load RUs
 # =====================================================
+if not RUS_FILE.exists():
+    raise FileNotFoundError(f"RUS file not found: {RUS_FILE}")
+
 with open(RUS_FILE, "r") as f:
     rus_units = json.load(f)
 
 if isinstance(rus_units, dict) and "RUs" in rus_units:
     rus_units = rus_units["RUs"]
 
-for i, ru in enumerate(rus_units, 1):
+for i, ru in enumerate(rus_units, start=1):
     ru.setdefault("RUs_id", f"RU_{i:03d}")
 
 rus_units = random.sample(rus_units, min(NUM_RUs_TO_RUN, len(rus_units)))
 
-# Ensure files exist but DO NOT RESET
+print(f"Loaded {len(rus_units)} RUs")
+
+# Ensure RU cognitive files exist
 for ru in rus_units:
-    (ROOT / "memory"      / f"{ru['RUs_id']}.json").touch(exist_ok=True)
-    (ROOT / "reflections" / f"{ru['RUs_id']}.json").touch(exist_ok=True)
-    (ROOT / "plans"       / f"{ru['RUs_id']}.json").touch(exist_ok=True)
-
-print(f"Running {len(rus_units)} RUs with llama3\n")
+    (PROJECT_ROOT / "memory"      / f"{ru['RUs_id']}.json").touch(exist_ok=True)
+    (PROJECT_ROOT / "reflections" / f"{ru['RUs_id']}.json").touch(exist_ok=True)
+    (PROJECT_ROOT / "plans"       / f"{ru['RUs_id']}.json").touch(exist_ok=True)
 
 # =====================================================
-# LOAD QUESTIONS
+# 5. Load questions
 # =====================================================
+if not QUESTION_FILE.exists():
+    raise FileNotFoundError(f"Question file not found: {QUESTION_FILE}")
+
 with open(QUESTION_FILE, "r") as f:
-    data = json.load(f)
+    qdata = json.load(f)
 
-if isinstance(data, dict) and "questions" in data:
-    questions = data["questions"]
-else:
-    questions = data
+questions = qdata["questions"] if isinstance(qdata, dict) and "questions" in qdata else qdata
+questions = questions[:50]
 
-print(f"Loaded {len(questions)} questions\n")
+print(f"Loaded {len(questions)} questions")
 
 # =====================================================
-# STRONG PROMPT BUILDER (forces correct answers)
+# 6. Likert mapping
 # =====================================================
-def build_prompt(ru, question):
-    demo = ", ".join([f"{k}: {v}" for k, v in ru.get("demographics", {}).items()]) if ru.get("demographics") else ""
+SCALE_MAP = {
+    "very inaccurate": 1,
+    "moderately inaccurate": 2,
+    "neither accurate nor inaccurate": 3,
+    "moderately accurate": 4,
+    "very accurate": 5,
+    "strongly disagree": 1,
+    "disagree": 2,
+    "neutral": 3,
+    "agree": 4,
+    "strongly agree": 5,
+}
+
+def normalize_response(text):
+    if not text:
+        return None
+    lower = text.lower()
+    for k, v in SCALE_MAP.items():
+        if k in lower:
+            return v
+    return None
+
+# =====================================================
+# 7. Prompt Builder
+# =====================================================
+def build_prompt(ru, q):
+    demo = ", ".join(f"{k}: {v}" for k, v in ru.get("demographics", {}).items()) if ru.get("demographics") else ""
     persona = ru.get("persona", "")
 
     memory = memory_manager.load(ru["RUs_id"])
@@ -105,36 +141,51 @@ def build_prompt(ru, question):
     if reflection: ctx.append(f"Reflection: {reflection}")
     if plan: ctx.append(f"Plan: {plan}")
 
-    options_text = "\n".join([f"- {opt}" for opt in question["options"]])
-
     return f"""
-You are a Reflector Unit (RU).
+You are a Reflector Unit (RU) simulating a human participant.
 
 Demographics: {demo}
 Persona: {persona}
 {os.linesep.join(ctx)}
 
-Survey Question:
-{question['question']}
+Question [{q['id']}]: {q['question']}
 
-Choose ONLY ONE option from the list below.
-Copy the option EXACTLY as written. NO explanations.
+Options: {', '.join(q['options'])}
 
-OPTIONS:
-{options_text}
+RULES:
+1. Choose exactly ONE option from the list.
+2. Copy it EXACTLY as written.
+3. Do NOT include explanations or extra text.
 
-OUTPUT INSTRUCTION:
-Return EXACTLY ONE OPTION STRING FROM ABOVE.
+Output only the option.
 """.strip()
 
 # =====================================================
-# LOCAL LLM CALL (llama3)
+# 8. LLM extraction helper
 # =====================================================
-def local_llm_response(ru, question, model="llama3"):
-    try:
-        prompt = build_prompt(ru, question)
+def extract_option(text, options):
+    # First attempt: exact match
+    for opt in options:
+        if opt.lower() in text.lower():
+            return opt
 
-        response = requests.post(
+    # Fallback: match first keyword
+    words = text.lower().split()
+    for opt in options:
+        key = opt.lower().split()[0]
+        if key in words:
+            return opt
+
+    return ""
+
+# =====================================================
+# 9. Ollama local LLM request
+# =====================================================
+def local_llm_response(ru, q, model="llama3"):
+    try:
+        prompt = build_prompt(ru, q)
+
+        r = requests.post(
             "http://localhost:11434/api/generate",
             json={"model": model, "prompt": prompt},
             stream=True,
@@ -142,7 +193,7 @@ def local_llm_response(ru, question, model="llama3"):
         )
 
         text = ""
-        for line in response.iter_lines():
+        for line in r.iter_lines():
             if not line:
                 continue
             try:
@@ -151,77 +202,72 @@ def local_llm_response(ru, question, model="llama3"):
             except:
                 continue
 
-        # match EXACT option from file
-        for opt in question["options"]:
-            if opt.lower() in text.lower():
-                return opt
+        return extract_option(text, q["options"])
 
-        return ""  # invalid or blank
     except Exception as e:
         return f"ERROR_{type(e).__name__}"
 
 # =====================================================
-# MAIN RUNNER
+# 10. Run RU pipeline
 # =====================================================
 def run_rus():
+    print("Running Reflector Units using local llama3...")
+
     total_calls = 0
     latencies = []
     start = time.perf_counter()
 
-    with open(RESULTS_FILE_JSONL, "w") as f_jsonl, open(RESULTS_FILE_CSV, "w", newline="") as f_csv:
-
-        writer = csv.DictWriter(
-            f_csv,
-            fieldnames=["timestamp", "RUs_id", "question_id", "question", "response", "response_num"]
-        )
+    with open(RESULTS_JSONL, "w") as fj, open(RESULTS_CSV, "w", newline="") as fc:
+        writer = csv.DictWriter(fc, fieldnames=[
+            "timestamp","RUs_id","question_id","question","response","response_num"
+        ])
         writer.writeheader()
 
         for ru in rus_units:
             for q in questions:
 
                 t0 = time.perf_counter()
-                response = local_llm_response(ru, q)
+                resp = local_llm_response(ru, q)
                 t1 = time.perf_counter()
 
-                latencies.append(t1 - t0)
                 total_calls += 1
+                latencies.append(t1 - t0)
 
-                record = {
+                score = normalize_response(resp)
+
+                rec = {
                     "timestamp": datetime.now(UTC).isoformat(),
                     "RUs_id": ru["RUs_id"],
                     "question_id": q["id"],
                     "question": q["question"],
-                    "response": response,
-                    "response_num": None
+                    "response": resp,
+                    "response_num": score
                 }
 
-                f_jsonl.write(json.dumps(record) + "\n")
-                writer.writerow(record)
+                fj.write(json.dumps(rec) + "\n")
+                writer.writerow(rec)
 
-                # append to memory systems
-                memory_manager.append(ru["RUs_id"], {"q": q["id"], "a": response})
-                reflection_manager.append(ru["RUs_id"], {"insight": f"Answered {q['id']} as {response}"})
+                memory_manager.append(ru["RUs_id"], {"q": q["id"], "a": resp})
+                reflection_manager.append(ru["RUs_id"], {"insight": f"Answered {q['id']} as {resp}"})
                 plan_manager.append(ru["RUs_id"], {"next_action": f"Reflect on {q['id']}"})
 
     total_time = max(time.perf_counter() - start, 1e-9)
 
     metrics = {
-        "num_rus": len(rus_units),
-        "num_questions": len(questions),
-        "total_responses": total_calls,
+        "RUs": len(rus_units),
+        "questions": len(questions),
+        "responses": total_calls,
         "avg_latency": statistics.mean(latencies),
-        "median_latency": statistics.median(latencies),
-        "responses_per_second": total_calls / total_time
+        "responses_per_second": total_calls / total_time,
     }
 
     with open(METRICS_FILE, "w") as mf:
         json.dump(metrics, mf, indent=2)
 
-    print("Finished local llama3 RU run.")
+    print("Run complete.")
 
 # =====================================================
-# ENTRY
+# 11. Entrypoint
 # =====================================================
 if __name__ == "__main__":
-    print("Starting local llama3 RU execution...\n")
     run_rus()
