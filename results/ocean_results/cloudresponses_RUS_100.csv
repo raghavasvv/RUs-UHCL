@@ -1,0 +1,1452 @@
+timestamp,RU_id,question_id,question,response,response_num
+2025-11-11T19:02:03.934158+00:00,RU_891,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:02:04.539116+00:00,RU_891,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:02:05.152931+00:00,RU_891,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:02:05.646470+00:00,RU_891,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:02:06.169408+00:00,RU_891,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:02:07.218407+00:00,RU_891,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:02:08.036118+00:00,RU_891,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:02:09.248477+00:00,RU_891,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:02:09.945376+00:00,RU_891,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:02:12.001088+00:00,RU_891,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:02:12.645291+00:00,RU_891,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:02:13.158602+00:00,RU_891,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:02:13.608904+00:00,RU_891,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:02:14.293400+00:00,RU_891,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:02:14.900253+00:00,RU_891,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:02:15.761256+00:00,RU_891,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:02:16.160866+00:00,RU_891,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:02:16.813400+00:00,RU_891,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:02:17.407576+00:00,RU_891,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:02:17.947507+00:00,RU_891,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:02:18.520979+00:00,RU_891,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:02:22.248503+00:00,RU_891,N2,Am relaxed most of the time.,Very Accurate,5
+2025-11-11T19:02:22.973847+00:00,RU_891,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:02:24.709452+00:00,RU_891,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:02:25.529962+00:00,RU_891,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:02:26.450384+00:00,RU_891,N6,Get upset easily.,Moderately Accurate,4
+2025-11-11T19:02:27.224493+00:00,RU_891,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:02:28.499642+00:00,RU_891,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:02:28.974537+00:00,RU_891,N9,Get irritated easily.,Moderately Accurate,4
+2025-11-11T19:02:29.523059+00:00,RU_891,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:02:30.227475+00:00,RU_891,E1,Am the life of the party.,Moderately Accurate,4
+2025-11-11T19:02:30.992658+00:00,RU_891,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:02:31.575962+00:00,RU_891,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:02:32.189526+00:00,RU_891,E4,Keep in the background.,Neither Accurate Nor Inaccurate,3
+2025-11-11T19:02:33.136113+00:00,RU_891,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:02:33.670292+00:00,RU_891,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:02:34.542683+00:00,RU_891,E7,Talk to a lot of different people at parties.,Moderately Accurate,4
+2025-11-11T19:02:35.145069+00:00,RU_891,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:02:35.770568+00:00,RU_891,E9,Don't mind being the center of attention.,Moderately Accurate,4
+2025-11-11T19:02:36.500101+00:00,RU_891,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:02:37.150867+00:00,RU_891,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:02:37.715302+00:00,RU_891,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:02:38.296359+00:00,RU_891,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:02:39.150687+00:00,RU_891,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:02:41.300185+00:00,RU_891,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:02:41.912033+00:00,RU_891,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:02:42.421659+00:00,RU_891,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:02:43.247063+00:00,RU_891,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:02:43.736628+00:00,RU_891,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:02:44.426507+00:00,RU_891,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:02:45.039628+00:00,RU_573,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:02:45.396324+00:00,RU_573,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:02:46.009184+00:00,RU_573,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:02:46.626444+00:00,RU_573,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:02:47.444228+00:00,RU_573,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:02:48.161850+00:00,RU_573,A6,Have a soft heart.,Moderately Accurate,4
+2025-11-11T19:02:49.368603+00:00,RU_573,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:02:50.327066+00:00,RU_573,A8,Take time out for others.,Moderately Accurate,4
+2025-11-11T19:02:50.924870+00:00,RU_573,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:02:51.559538+00:00,RU_573,A10,Make people feel at ease.,Moderately Accurate,4
+2025-11-11T19:02:52.369006+00:00,RU_573,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:02:52.985291+00:00,RU_573,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:02:53.593769+00:00,RU_573,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:02:54.407358+00:00,RU_573,O4,Am not interested in abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:02:56.967332+00:00,RU_573,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:02:57.692801+00:00,RU_573,O6,Do not have a good imagination.,Moderately Inaccurate,2
+2025-11-11T19:02:59.839898+00:00,RU_573,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:03:00.653448+00:00,RU_573,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:03:01.575595+00:00,RU_573,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:03:02.291091+00:00,RU_573,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:03:03.111024+00:00,RU_573,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:03:03.828490+00:00,RU_573,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:03:04.647590+00:00,RU_573,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:03:05.775529+00:00,RU_573,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:03:06.799134+00:00,RU_573,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:03:07.721196+00:00,RU_573,N6,Get upset easily.,Moderately Accurate,4
+2025-11-11T19:03:08.467281+00:00,RU_573,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:03:09.460315+00:00,RU_573,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:03:10.178027+00:00,RU_573,N9,Get irritated easily.,Moderately Inaccurate,2
+2025-11-11T19:03:10.996673+00:00,RU_573,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:03:11.816263+00:00,RU_573,E1,Am the life of the party.,Moderately Inaccurate,2
+2025-11-11T19:03:14.786940+00:00,RU_573,E2,Don't talk a lot.,Moderately Inaccurate,2
+2025-11-11T19:03:15.411084+00:00,RU_573,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:03:16.217438+00:00,RU_573,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:03:16.847432+00:00,RU_573,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:03:21.034370+00:00,RU_573,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:03:22.215608+00:00,RU_573,E7,Talk to a lot of different people at parties.,Moderately Inaccurate,2
+2025-11-11T19:03:23.010676+00:00,RU_573,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:03:23.999127+00:00,RU_573,E9,Don't mind being the center of attention.,Moderately Inaccurate,2
+2025-11-11T19:03:24.753699+00:00,RU_573,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:03:25.637246+00:00,RU_573,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:03:26.355608+00:00,RU_573,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:03:27.277834+00:00,RU_573,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:03:28.506871+00:00,RU_573,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:03:29.323822+00:00,RU_573,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:03:30.519196+00:00,RU_573,C6,Often forget to put things back in their proper place.,Moderately Inaccurate,2
+2025-11-11T19:03:31.373303+00:00,RU_573,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:03:32.218815+00:00,RU_573,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:03:33.012297+00:00,RU_573,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:03:33.829892+00:00,RU_573,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:03:35.265470+00:00,RU_595,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:03:35.981019+00:00,RU_595,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:03:36.699282+00:00,RU_595,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:03:37.620523+00:00,RU_595,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:03:38.134524+00:00,RU_595,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:03:38.644248+00:00,RU_595,A6,Have a soft heart.,Moderately Accurate,4
+2025-11-11T19:03:39.259421+00:00,RU_595,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:03:39.975697+00:00,RU_595,A8,Take time out for others.,Moderately Accurate,4
+2025-11-11T19:03:40.384759+00:00,RU_595,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:03:41.099224+00:00,RU_595,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:03:41.714427+00:00,RU_595,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:03:42.216104+00:00,RU_595,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:03:42.944311+00:00,RU_595,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:03:43.660939+00:00,RU_595,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:03:44.376542+00:00,RU_595,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:03:45.707779+00:00,RU_595,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:03:46.220624+00:00,RU_595,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:03:47.042367+00:00,RU_595,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:03:47.555156+00:00,RU_595,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:03:48.166681+00:00,RU_595,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:03:48.781837+00:00,RU_595,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:03:49.395491+00:00,RU_595,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:03:49.910170+00:00,RU_595,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:03:50.525688+00:00,RU_595,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:03:51.273786+00:00,RU_595,N5,Am easily disturbed.,Moderately Inaccurate,2
+2025-11-11T19:03:52.305522+00:00,RU_595,N6,Get upset easily.,Moderately Accurate,4
+2025-11-11T19:03:53.301102+00:00,RU_595,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:03:53.961681+00:00,RU_595,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:03:54.620495+00:00,RU_595,N9,Get irritated easily.,Moderately Accurate,4
+2025-11-11T19:03:55.335604+00:00,RU_595,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:03:56.056352+00:00,RU_595,E1,Am the life of the party.,Moderately Accurate,4
+2025-11-11T19:03:56.769810+00:00,RU_595,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:03:57.388963+00:00,RU_595,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:03:57.998836+00:00,RU_595,E4,Keep in the background.,Moderately Accurate,4
+2025-11-11T19:03:58.612725+00:00,RU_595,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:03:59.227990+00:00,RU_595,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:03:59.842005+00:00,RU_595,E7,Talk to a lot of different people at parties.,Moderately Accurate,4
+2025-11-11T19:04:00.457311+00:00,RU_595,E8,Don't like to draw attention to myself.,Moderately Inaccurate,2
+2025-11-11T19:04:01.174148+00:00,RU_595,E9,Don't mind being the center of attention.,Moderately Accurate,4
+2025-11-11T19:04:01.684967+00:00,RU_595,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:04:02.403753+00:00,RU_595,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:04:03.016160+00:00,RU_595,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:04:03.835417+00:00,RU_595,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:04:06.826198+00:00,RU_595,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:04:07.316581+00:00,RU_595,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:04:07.986573+00:00,RU_595,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:04:08.444175+00:00,RU_595,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:04:08.954839+00:00,RU_595,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:04:09.571199+00:00,RU_595,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:04:10.184393+00:00,RU_595,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:04:11.006538+00:00,RU_901,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:04:11.924645+00:00,RU_901,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:04:12.744490+00:00,RU_901,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:04:13.256786+00:00,RU_901,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:04:13.766995+00:00,RU_901,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:04:15.100244+00:00,RU_901,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:04:16.224796+00:00,RU_901,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:04:16.837485+00:00,RU_901,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:04:17.351947+00:00,RU_901,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:04:18.218739+00:00,RU_901,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:04:18.887997+00:00,RU_901,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:04:19.401100+00:00,RU_901,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:04:19.980363+00:00,RU_901,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:04:20.472899+00:00,RU_901,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:04:21.010048+00:00,RU_901,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:04:21.757807+00:00,RU_901,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:04:22.272508+00:00,RU_901,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:04:22.782563+00:00,RU_901,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:04:23.711074+00:00,RU_901,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:04:24.361922+00:00,RU_901,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:04:24.887339+00:00,RU_901,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:04:26.576664+00:00,RU_901,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:04:27.187602+00:00,RU_901,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:04:28.475248+00:00,RU_901,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:04:29.136859+00:00,RU_901,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:04:29.748850+00:00,RU_901,N6,Get upset easily.,Moderately Accurate,4
+2025-11-11T19:04:30.668432+00:00,RU_901,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:04:31.398238+00:00,RU_901,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:04:32.101030+00:00,RU_901,N9,Get irritated easily.,Moderately Inaccurate,2
+2025-11-11T19:04:32.926951+00:00,RU_901,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:04:33.875933+00:00,RU_901,E1,Am the life of the party.,Moderately Inaccurate,2
+2025-11-11T19:04:34.457258+00:00,RU_901,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:04:35.066220+00:00,RU_901,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:04:35.789551+00:00,RU_901,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:04:36.528840+00:00,RU_901,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:04:37.238145+00:00,RU_901,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:04:37.936377+00:00,RU_901,E7,Talk to a lot of different people at parties.,Moderately Inaccurate,2
+2025-11-11T19:04:38.648739+00:00,RU_901,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:04:39.740763+00:00,RU_901,E9,Don't mind being the center of attention.,Moderately Inaccurate,2
+2025-11-11T19:04:40.266401+00:00,RU_901,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:04:41.368250+00:00,RU_901,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:04:42.257233+00:00,RU_901,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:04:42.904855+00:00,RU_901,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:04:44.160212+00:00,RU_901,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:04:44.951602+00:00,RU_901,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:04:45.643702+00:00,RU_901,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:04:46.589421+00:00,RU_901,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:04:47.782046+00:00,RU_901,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:04:48.291653+00:00,RU_901,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:04:48.779064+00:00,RU_901,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:04:50.910929+00:00,RU_580,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:04:51.779864+00:00,RU_580,A2,Am interested in people.,Moderately Accurate,4
+2025-11-11T19:04:52.320032+00:00,RU_580,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:04:53.031085+00:00,RU_580,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:04:53.471907+00:00,RU_580,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:04:54.135695+00:00,RU_580,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:04:54.919434+00:00,RU_580,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:04:55.464383+00:00,RU_580,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:04:56.110630+00:00,RU_580,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:04:56.977537+00:00,RU_580,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:04:57.540301+00:00,RU_580,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:04:58.230013+00:00,RU_580,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:04:59.861657+00:00,RU_580,O3,Have a vivid imagination.,Moderately Inaccurate,2
+2025-11-11T19:05:00.768934+00:00,RU_580,O4,Am not interested in abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:05:01.281723+00:00,RU_580,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:05:01.996111+00:00,RU_580,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:05:02.615649+00:00,RU_580,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:05:03.742838+00:00,RU_580,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:05:04.763394+00:00,RU_580,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:05:05.338742+00:00,RU_580,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:05:06.091673+00:00,RU_580,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:05:06.704519+00:00,RU_580,N2,Am relaxed most of the time.,Very Accurate,5
+2025-11-11T19:05:07.489549+00:00,RU_580,N3,Worry about things.,Moderately Inaccurate,2
+2025-11-11T19:05:13.490938+00:00,RU_580,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:05:14.593375+00:00,RU_580,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:05:15.314460+00:00,RU_580,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:05:16.028279+00:00,RU_580,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:05:16.640804+00:00,RU_580,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:05:17.257651+00:00,RU_580,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:05:17.871214+00:00,RU_580,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:05:18.688812+00:00,RU_580,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:05:19.405880+00:00,RU_580,E2,Don't talk a lot.,Very Accurate,5
+2025-11-11T19:05:20.020320+00:00,RU_580,E3,Feel comfortable around people.,Moderately Inaccurate,2
+2025-11-11T19:05:20.836163+00:00,RU_580,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:05:22.072039+00:00,RU_580,E5,Start conversations.,Moderately Inaccurate,2
+2025-11-11T19:05:23.212913+00:00,RU_580,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:05:24.423813+00:00,RU_580,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:05:25.346359+00:00,RU_580,E8,Don't like to draw attention to myself.,Very Accurate,5
+2025-11-11T19:05:26.062823+00:00,RU_580,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:05:27.086500+00:00,RU_580,E10,Am quiet around strangers.,Very Accurate,5
+2025-11-11T19:05:28.314997+00:00,RU_580,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:05:29.236725+00:00,RU_580,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:05:29.851180+00:00,RU_580,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:05:30.573937+00:00,RU_580,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:05:31.499651+00:00,RU_580,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:05:32.585414+00:00,RU_580,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:05:33.742777+00:00,RU_580,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:05:34.258786+00:00,RU_580,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:05:35.201437+00:00,RU_580,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:05:35.827479+00:00,RU_580,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:05:36.940854+00:00,RU_839,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:05:37.657404+00:00,RU_839,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:05:38.862875+00:00,RU_839,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:05:39.576333+00:00,RU_839,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:05:40.194700+00:00,RU_839,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:05:40.690782+00:00,RU_839,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:05:41.833784+00:00,RU_839,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:05:42.651542+00:00,RU_839,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:05:43.556468+00:00,RU_839,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:05:44.803729+00:00,RU_839,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:05:45.419797+00:00,RU_839,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:05:46.236423+00:00,RU_839,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:05:46.954615+00:00,RU_839,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:05:47.772965+00:00,RU_839,O4,Am not interested in abstract ideas.,Very Accurate,5
+2025-11-11T19:05:48.488305+00:00,RU_839,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:05:49.311644+00:00,RU_839,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:05:50.101743+00:00,RU_839,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:05:50.741079+00:00,RU_839,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:05:51.334796+00:00,RU_839,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:05:51.918994+00:00,RU_839,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:05:53.456031+00:00,RU_839,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:05:54.119812+00:00,RU_839,N2,Am relaxed most of the time.,Moderately Inaccurate,2
+2025-11-11T19:05:54.733461+00:00,RU_839,N3,Worry about things.,Very Inaccurate,1
+2025-11-11T19:05:55.387243+00:00,RU_839,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:05:56.805863+00:00,RU_839,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:05:57.675247+00:00,RU_839,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:05:58.457894+00:00,RU_839,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:05:59.547796+00:00,RU_839,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:06:03.531173+00:00,RU_839,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:06:04.261902+00:00,RU_839,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:06:05.017643+00:00,RU_839,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:06:06.100864+00:00,RU_839,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:06:06.877818+00:00,RU_839,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:06:07.532466+00:00,RU_839,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:06:08.250106+00:00,RU_839,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:06:08.968166+00:00,RU_839,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:06:09.888857+00:00,RU_839,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:06:10.502963+00:00,RU_839,E8,Don't like to draw attention to myself.,Very Accurate,5
+2025-11-11T19:06:11.327834+00:00,RU_839,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:06:12.039097+00:00,RU_839,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:06:12.962218+00:00,RU_839,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:06:13.781128+00:00,RU_839,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:06:14.496353+00:00,RU_839,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:06:15.315462+00:00,RU_839,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:06:15.932703+00:00,RU_839,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:06:16.913880+00:00,RU_839,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:06:17.569487+00:00,RU_839,C7,Like order.,Very Accurate,5
+2025-11-11T19:06:18.184726+00:00,RU_839,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:06:18.806948+00:00,RU_839,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:06:19.716702+00:00,RU_839,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:06:21.904795+00:00,RU_529,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:06:22.626376+00:00,RU_529,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:06:23.567998+00:00,RU_529,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:06:24.119508+00:00,RU_529,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:06:24.599214+00:00,RU_529,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:06:25.253446+00:00,RU_529,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:06:25.900257+00:00,RU_529,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:06:26.586283+00:00,RU_529,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:06:27.287647+00:00,RU_529,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:06:28.002647+00:00,RU_529,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:06:28.642311+00:00,RU_529,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:06:29.241547+00:00,RU_529,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:06:30.202818+00:00,RU_529,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:06:31.192028+00:00,RU_529,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:06:32.212938+00:00,RU_529,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:06:32.930957+00:00,RU_529,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:06:35.899021+00:00,RU_529,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:06:36.620510+00:00,RU_529,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:06:37.232143+00:00,RU_529,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:06:38.153464+00:00,RU_529,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:06:38.972446+00:00,RU_529,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:06:40.200961+00:00,RU_529,N2,Am relaxed most of the time.,Moderately Inaccurate,2
+2025-11-11T19:06:41.019590+00:00,RU_529,N3,Worry about things.,Very Inaccurate,1
+2025-11-11T19:06:41.631942+00:00,RU_529,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:06:42.559646+00:00,RU_529,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:06:43.273556+00:00,RU_529,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:06:43.993376+00:00,RU_529,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:06:44.705802+00:00,RU_529,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:06:45.217214+00:00,RU_529,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:06:46.347908+00:00,RU_529,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:06:47.060835+00:00,RU_529,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:06:48.292015+00:00,RU_529,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:06:48.802191+00:00,RU_529,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:06:49.519350+00:00,RU_529,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:06:50.134145+00:00,RU_529,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:06:52.488118+00:00,RU_529,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:06:53.206253+00:00,RU_529,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:06:53.925464+00:00,RU_529,E8,Don't like to draw attention to myself.,Very Accurate,5
+2025-11-11T19:06:54.553060+00:00,RU_529,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:06:55.358356+00:00,RU_529,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:06:55.971887+00:00,RU_529,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:06:56.692800+00:00,RU_529,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:06:57.298823+00:00,RU_529,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:06:58.126106+00:00,RU_529,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:06:58.631852+00:00,RU_529,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:06:59.348872+00:00,RU_529,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:06:59.861325+00:00,RU_529,C7,Like order.,Very Accurate,5
+2025-11-11T19:07:01.499953+00:00,RU_529,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:07:02.629016+00:00,RU_529,C9,Follow a schedule.,Very Accurate,5
+2025-11-11T19:07:03.468485+00:00,RU_529,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:07:04.887925+00:00,RU_187,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:07:05.698920+00:00,RU_187,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:07:06.316675+00:00,RU_187,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:07:06.881556+00:00,RU_187,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:07:07.541997+00:00,RU_187,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:07:08.157126+00:00,RU_187,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:07:08.872149+00:00,RU_187,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:07:09.693046+00:00,RU_187,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:07:10.408590+00:00,RU_187,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:07:10.920531+00:00,RU_187,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:07:12.149845+00:00,RU_187,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:07:12.821360+00:00,RU_187,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:07:13.689622+00:00,RU_187,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:07:14.147237+00:00,RU_187,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:07:14.674906+00:00,RU_187,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:07:15.722163+00:00,RU_187,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:07:16.480701+00:00,RU_187,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:07:17.307874+00:00,RU_187,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:07:17.819884+00:00,RU_187,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:07:18.379227+00:00,RU_187,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:07:18.978883+00:00,RU_187,N1,Get stressed out easily.,Moderately Inaccurate,2
+2025-11-11T19:07:19.563639+00:00,RU_187,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:07:19.994568+00:00,RU_187,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:07:20.439556+00:00,RU_187,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:07:20.964746+00:00,RU_187,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:07:21.689150+00:00,RU_187,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:07:22.403336+00:00,RU_187,N7,Change my mood a lot.,Moderately Inaccurate,2
+2025-11-11T19:07:23.752134+00:00,RU_187,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:07:24.226643+00:00,RU_187,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:07:25.174117+00:00,RU_187,N10,Often feel blue.,Moderately Inaccurate,2
+2025-11-11T19:07:25.779002+00:00,RU_187,E1,Am the life of the party.,Very Accurate,5
+2025-11-11T19:07:26.624380+00:00,RU_187,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:07:27.133104+00:00,RU_187,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:07:28.037652+00:00,RU_187,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:07:28.449193+00:00,RU_187,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:07:29.005468+00:00,RU_187,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:07:29.528661+00:00,RU_187,E7,Talk to a lot of different people at parties.,Very Accurate,5
+2025-11-11T19:07:31.043121+00:00,RU_187,E8,Don't like to draw attention to myself.,Very Inaccurate,1
+2025-11-11T19:07:31.681441+00:00,RU_187,E9,Don't mind being the center of attention.,Moderately Accurate,4
+2025-11-11T19:07:32.317403+00:00,RU_187,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:07:32.857136+00:00,RU_187,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:07:33.757053+00:00,RU_187,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:07:34.275370+00:00,RU_187,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:07:34.883481+00:00,RU_187,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:07:35.393931+00:00,RU_187,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:07:36.250736+00:00,RU_187,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:07:36.623451+00:00,RU_187,C7,Like order.,Very Accurate,5
+2025-11-11T19:07:37.338899+00:00,RU_187,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:07:37.955407+00:00,RU_187,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:07:38.671549+00:00,RU_187,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:07:40.724642+00:00,RU_924,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:07:41.278546+00:00,RU_924,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:07:42.199194+00:00,RU_924,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:07:42.597892+00:00,RU_924,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:07:43.055447+00:00,RU_924,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:07:43.798623+00:00,RU_924,A6,Have a soft heart.,Moderately Accurate,4
+2025-11-11T19:07:44.456121+00:00,RU_924,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:07:45.013504+00:00,RU_924,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:07:45.645795+00:00,RU_924,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:07:46.351993+00:00,RU_924,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:07:47.170176+00:00,RU_924,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:07:47.681732+00:00,RU_924,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:07:48.608062+00:00,RU_924,O3,Have a vivid imagination.,Moderately Inaccurate,2
+2025-11-11T19:07:49.319728+00:00,RU_924,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:07:50.383248+00:00,RU_924,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:07:50.915811+00:00,RU_924,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:07:51.471333+00:00,RU_924,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:07:52.403226+00:00,RU_924,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:07:53.007515+00:00,RU_924,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:07:57.108907+00:00,RU_924,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:07:57.820346+00:00,RU_924,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:07:58.538163+00:00,RU_924,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:07:59.257200+00:00,RU_924,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:07:59.970622+00:00,RU_924,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:08:01.024788+00:00,RU_924,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:08:01.608585+00:00,RU_924,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:08:02.231634+00:00,RU_924,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:08:02.856199+00:00,RU_924,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:08:03.455433+00:00,RU_924,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:08:04.066658+00:00,RU_924,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:08:04.681114+00:00,RU_924,E1,Am the life of the party.,Moderately Accurate,4
+2025-11-11T19:08:05.295544+00:00,RU_924,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:08:06.114677+00:00,RU_924,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:08:06.730010+00:00,RU_924,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:08:07.753016+00:00,RU_924,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:08:08.571797+00:00,RU_924,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:08:09.390736+00:00,RU_924,E7,Talk to a lot of different people at parties.,Moderately Accurate,4
+2025-11-11T19:08:10.352141+00:00,RU_924,E8,Don't like to draw attention to myself.,Very Inaccurate,1
+2025-11-11T19:08:10.927018+00:00,RU_924,E9,Don't mind being the center of attention.,Moderately Accurate,4
+2025-11-11T19:08:11.526716+00:00,RU_924,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:08:12.261480+00:00,RU_924,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:08:12.872657+00:00,RU_924,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:08:13.504484+00:00,RU_924,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:08:15.124985+00:00,RU_924,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:08:15.947612+00:00,RU_924,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:08:16.569866+00:00,RU_924,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:08:17.134336+00:00,RU_924,C7,Like order.,Very Accurate,5
+2025-11-11T19:08:18.309674+00:00,RU_924,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:08:19.034318+00:00,RU_924,C9,Follow a schedule.,Very Accurate,5
+2025-11-11T19:08:19.772876+00:00,RU_924,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:08:20.184302+00:00,RU_178,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:08:21.274644+00:00,RU_178,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:08:22.394502+00:00,RU_178,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:08:22.950884+00:00,RU_178,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:08:24.012889+00:00,RU_178,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:08:24.511325+00:00,RU_178,A6,Have a soft heart.,Moderately Accurate,4
+2025-11-11T19:08:25.056077+00:00,RU_178,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:08:25.773886+00:00,RU_178,A8,Take time out for others.,Moderately Accurate,4
+2025-11-11T19:08:26.901149+00:00,RU_178,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:08:27.720113+00:00,RU_178,A10,Make people feel at ease.,Moderately Accurate,4
+2025-11-11T19:08:28.174680+00:00,RU_178,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:08:28.981541+00:00,RU_178,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:08:29.837356+00:00,RU_178,O3,Have a vivid imagination.,Moderately Inaccurate,2
+2025-11-11T19:08:30.405136+00:00,RU_178,O4,Am not interested in abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:08:30.830011+00:00,RU_178,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:08:31.456374+00:00,RU_178,O6,Do not have a good imagination.,Moderately Accurate,4
+2025-11-11T19:08:32.533550+00:00,RU_178,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:08:33.490085+00:00,RU_178,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:08:34.356092+00:00,RU_178,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:08:34.990023+00:00,RU_178,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:08:35.602958+00:00,RU_178,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:08:36.321470+00:00,RU_178,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:08:37.038390+00:00,RU_178,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:08:37.773421+00:00,RU_178,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:08:38.574817+00:00,RU_178,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:08:39.496527+00:00,RU_178,N6,Get upset easily.,Moderately Inaccurate,2
+2025-11-11T19:08:40.722886+00:00,RU_178,N7,Change my mood a lot.,Moderately Inaccurate,2
+2025-11-11T19:08:41.265108+00:00,RU_178,N8,Have frequent mood swings.,Moderately Inaccurate,2
+2025-11-11T19:08:42.259040+00:00,RU_178,N9,Get irritated easily.,Moderately Inaccurate,2
+2025-11-11T19:08:42.981610+00:00,RU_178,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:08:43.796698+00:00,RU_178,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:08:44.924281+00:00,RU_178,E2,Don't talk a lot.,Moderately Accurate,4
+2025-11-11T19:08:46.560833+00:00,RU_178,E3,Feel comfortable around people.,Moderately Inaccurate,2
+2025-11-11T19:08:47.464523+00:00,RU_178,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:08:48.610145+00:00,RU_178,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:08:49.246438+00:00,RU_178,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:08:50.139110+00:00,RU_178,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:08:50.926126+00:00,RU_178,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:08:51.479356+00:00,RU_178,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:08:52.052269+00:00,RU_178,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:08:52.606531+00:00,RU_178,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:08:53.218105+00:00,RU_178,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:08:53.844990+00:00,RU_178,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:08:54.447827+00:00,RU_178,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:08:55.134646+00:00,RU_178,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:08:56.195144+00:00,RU_178,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:08:56.641663+00:00,RU_178,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:09:00.695899+00:00,RU_178,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:09:01.102753+00:00,RU_178,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:09:01.616706+00:00,RU_178,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:09:02.948162+00:00,RU_158,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:09:03.457924+00:00,RU_158,A2,Am interested in people.,Moderately Inaccurate,2
+2025-11-11T19:09:04.322669+00:00,RU_158,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:09:04.892590+00:00,RU_158,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:09:05.265836+00:00,RU_158,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:09:05.710873+00:00,RU_158,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:09:06.219947+00:00,RU_158,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:09:06.634470+00:00,RU_158,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:09:07.041438+00:00,RU_158,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:09:07.448824+00:00,RU_158,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:09:07.964830+00:00,RU_158,O1,Have a rich vocabulary.,Moderately Inaccurate,2
+2025-11-11T19:09:08.478690+00:00,RU_158,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:09:09.092294+00:00,RU_158,O3,Have a vivid imagination.,Very Inaccurate,1
+2025-11-11T19:09:09.703439+00:00,RU_158,O4,Am not interested in abstract ideas.,Very Accurate,5
+2025-11-11T19:09:10.300302+00:00,RU_158,O5,Have excellent ideas.,Moderately Inaccurate,2
+2025-11-11T19:09:10.821796+00:00,RU_158,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:09:11.755373+00:00,RU_158,O7,Am quick to understand things.,Moderately Inaccurate,2
+2025-11-11T19:09:12.374764+00:00,RU_158,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:09:12.913421+00:00,RU_158,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:09:13.496269+00:00,RU_158,O10,Am full of ideas.,Very Inaccurate,1
+2025-11-11T19:09:14.111208+00:00,RU_158,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:09:14.620523+00:00,RU_158,N2,Am relaxed most of the time.,Very Accurate,5
+2025-11-11T19:09:15.096814+00:00,RU_158,N3,Worry about things.,Very Inaccurate,1
+2025-11-11T19:09:15.854235+00:00,RU_158,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:09:16.311474+00:00,RU_158,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:09:17.079384+00:00,RU_158,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:09:17.588325+00:00,RU_158,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:09:18.410544+00:00,RU_158,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:09:19.134614+00:00,RU_158,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:09:19.640396+00:00,RU_158,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:09:20.356396+00:00,RU_158,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:09:20.814656+00:00,RU_158,E2,Don't talk a lot.,Very Accurate,5
+2025-11-11T19:09:21.992531+00:00,RU_158,E3,Feel comfortable around people.,Very Inaccurate,1
+2025-11-11T19:09:22.505213+00:00,RU_158,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:09:22.930744+00:00,RU_158,E5,Start conversations.,Very Inaccurate,1
+2025-11-11T19:09:23.529672+00:00,RU_158,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:09:25.582879+00:00,RU_158,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:09:26.190631+00:00,RU_158,E8,Don't like to draw attention to myself.,Very Accurate,5
+2025-11-11T19:09:26.703061+00:00,RU_158,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:09:31.168276+00:00,RU_158,E10,Am quiet around strangers.,Very Accurate,5
+2025-11-11T19:09:31.720418+00:00,RU_158,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:09:32.233446+00:00,RU_158,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:09:32.849979+00:00,RU_158,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:09:33.476365+00:00,RU_158,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:09:34.192152+00:00,RU_158,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:09:35.408717+00:00,RU_158,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:09:36.024218+00:00,RU_158,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:09:36.536611+00:00,RU_158,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:09:37.149610+00:00,RU_158,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:09:37.660682+00:00,RU_158,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:09:38.479687+00:00,RU_201,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:09:39.402153+00:00,RU_201,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:09:39.976722+00:00,RU_201,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:09:40.440512+00:00,RU_201,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:09:40.921561+00:00,RU_201,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:09:41.551075+00:00,RU_201,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:09:42.170031+00:00,RU_201,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:09:42.766669+00:00,RU_201,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:09:43.325053+00:00,RU_201,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:09:43.805639+00:00,RU_201,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:09:44.725744+00:00,RU_201,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:09:45.258380+00:00,RU_201,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:09:45.900434+00:00,RU_201,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:09:46.687139+00:00,RU_201,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:09:47.337547+00:00,RU_201,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:09:48.182925+00:00,RU_201,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:09:48.712303+00:00,RU_201,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:09:49.318996+00:00,RU_201,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:09:49.843954+00:00,RU_201,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:09:50.894754+00:00,RU_201,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:09:51.853194+00:00,RU_201,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:09:53.598893+00:00,RU_201,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:09:54.472506+00:00,RU_201,N3,Worry about things.,Very Inaccurate,1
+2025-11-11T19:09:55.196659+00:00,RU_201,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:09:55.826312+00:00,RU_201,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:09:56.712019+00:00,RU_201,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:09:57.628554+00:00,RU_201,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:09:58.449298+00:00,RU_201,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:09:59.194647+00:00,RU_201,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:09:59.995023+00:00,RU_201,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:10:01.007189+00:00,RU_201,E1,Am the life of the party.,Very Accurate,5
+2025-11-11T19:10:01.721293+00:00,RU_201,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:10:02.444655+00:00,RU_201,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:10:03.054364+00:00,RU_201,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:10:03.912964+00:00,RU_201,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:10:04.598226+00:00,RU_201,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:10:07.664093+00:00,RU_201,E7,Talk to a lot of different people at parties.,Very Accurate,5
+2025-11-11T19:10:08.381241+00:00,RU_201,E8,Don't like to draw attention to myself.,Very Inaccurate,1
+2025-11-11T19:10:09.405147+00:00,RU_201,E9,Don't mind being the center of attention.,Very Accurate,5
+2025-11-11T19:10:10.017053+00:00,RU_201,E10,Am quiet around strangers.,Very Inaccurate,1
+2025-11-11T19:10:12.547253+00:00,RU_201,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:10:13.605862+00:00,RU_201,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:10:15.153734+00:00,RU_201,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:10:16.052008+00:00,RU_201,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:10:17.616835+00:00,RU_201,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:10:18.415205+00:00,RU_201,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:10:19.321435+00:00,RU_201,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:10:23.740176+00:00,RU_201,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:10:24.121646+00:00,RU_201,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:10:24.876078+00:00,RU_201,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:10:29.193246+00:00,RU_678,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:10:33.163798+00:00,RU_678,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:10:34.560909+00:00,RU_678,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:10:34.976372+00:00,RU_678,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:10:35.475535+00:00,RU_678,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:10:36.232420+00:00,RU_678,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:10:37.455326+00:00,RU_678,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:10:38.178742+00:00,RU_678,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:10:38.875398+00:00,RU_678,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:10:39.800631+00:00,RU_678,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:10:40.404660+00:00,RU_678,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:10:41.353979+00:00,RU_678,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:10:41.826860+00:00,RU_678,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:10:42.544201+00:00,RU_678,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:10:43.173815+00:00,RU_678,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:10:43.748957+00:00,RU_678,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:10:44.372743+00:00,RU_678,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:10:44.964546+00:00,RU_678,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:10:45.725999+00:00,RU_678,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:10:46.389810+00:00,RU_678,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:10:47.366914+00:00,RU_678,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:10:54.260659+00:00,RU_678,N2,Am relaxed most of the time.,Very Accurate,5
+2025-11-11T19:10:57.128724+00:00,RU_678,N3,Worry about things.,Very Inaccurate,1
+2025-11-11T19:10:57.738907+00:00,RU_678,N4,Seldom feel blue.,Very Accurate,5
+2025-11-11T19:10:58.656407+00:00,RU_678,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:10:59.331813+00:00,RU_678,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:11:00.091268+00:00,RU_678,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:11:01.095603+00:00,RU_678,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:11:02.142689+00:00,RU_678,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:11:03.127575+00:00,RU_678,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:11:03.906641+00:00,RU_678,E1,Am the life of the party.,Very Accurate,5
+2025-11-11T19:11:04.698928+00:00,RU_678,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:11:05.229017+00:00,RU_678,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:11:06.010080+00:00,RU_678,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:11:06.902785+00:00,RU_678,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:11:07.638963+00:00,RU_678,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:11:08.466787+00:00,RU_678,E7,Talk to a lot of different people at parties.,Very Accurate,5
+2025-11-11T19:11:10.024082+00:00,RU_678,E8,Don't like to draw attention to myself.,Very Inaccurate,1
+2025-11-11T19:11:12.702595+00:00,RU_678,E9,Don't mind being the center of attention.,Very Accurate,5
+2025-11-11T19:11:13.252758+00:00,RU_678,E10,Am quiet around strangers.,Very Inaccurate,1
+2025-11-11T19:11:13.989133+00:00,RU_678,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:11:14.915998+00:00,RU_678,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:11:15.536770+00:00,RU_678,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:11:17.284823+00:00,RU_678,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:11:18.115022+00:00,RU_678,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:11:18.855760+00:00,RU_678,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:11:19.474242+00:00,RU_678,C7,Like order.,Very Accurate,5
+2025-11-11T19:11:20.163787+00:00,RU_678,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:11:21.237365+00:00,RU_678,C9,Follow a schedule.,Very Accurate,5
+2025-11-11T19:11:22.002455+00:00,RU_678,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:11:23.440806+00:00,RU_875,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:11:24.054974+00:00,RU_875,A2,Am interested in people.,Moderately Accurate,4
+2025-11-11T19:11:24.772788+00:00,RU_875,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:11:25.385409+00:00,RU_875,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:11:26.411389+00:00,RU_875,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:11:27.125426+00:00,RU_875,A6,Have a soft heart.,Moderately Accurate,4
+2025-11-11T19:11:28.008786+00:00,RU_875,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:11:30.517688+00:00,RU_875,A8,Take time out for others.,Moderately Accurate,4
+2025-11-11T19:11:31.097457+00:00,RU_875,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:11:31.786901+00:00,RU_875,A10,Make people feel at ease.,Moderately Accurate,4
+2025-11-11T19:11:32.554839+00:00,RU_875,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:11:36.646501+00:00,RU_875,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:11:37.204766+00:00,RU_875,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:11:38.133817+00:00,RU_875,O4,Am not interested in abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:11:38.906280+00:00,RU_875,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:11:39.618848+00:00,RU_875,O6,Do not have a good imagination.,Moderately Inaccurate,2
+2025-11-11T19:11:40.280993+00:00,RU_875,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:11:41.463038+00:00,RU_875,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:11:41.974090+00:00,RU_875,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:11:42.690807+00:00,RU_875,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:11:43.306097+00:00,RU_875,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:11:44.436007+00:00,RU_875,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:11:44.944021+00:00,RU_875,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:11:45.664540+00:00,RU_875,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:11:46.176289+00:00,RU_875,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:11:47.710388+00:00,RU_875,N6,Get upset easily.,Moderately Inaccurate,2
+2025-11-11T19:11:48.425547+00:00,RU_875,N7,Change my mood a lot.,Moderately Inaccurate,2
+2025-11-11T19:11:49.654251+00:00,RU_875,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:11:50.268585+00:00,RU_875,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:11:50.986923+00:00,RU_875,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:11:51.598425+00:00,RU_875,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:11:52.318267+00:00,RU_875,E2,Don't talk a lot.,Very Accurate,5
+2025-11-11T19:11:53.135505+00:00,RU_875,E3,Feel comfortable around people.,Moderately Inaccurate,2
+2025-11-11T19:11:53.650287+00:00,RU_875,E4,Keep in the background.,Moderately Accurate,4
+2025-11-11T19:11:54.570825+00:00,RU_875,E5,Start conversations.,Moderately Inaccurate,2
+2025-11-11T19:11:55.401218+00:00,RU_875,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:11:56.004280+00:00,RU_875,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:11:56.721664+00:00,RU_875,E8,Don't like to draw attention to myself.,Very Accurate,5
+2025-11-11T19:11:57.642599+00:00,RU_875,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:11:58.152019+00:00,RU_875,E10,Am quiet around strangers.,Very Accurate,5
+2025-11-11T19:11:58.872928+00:00,RU_875,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:12:05.327003+00:00,RU_875,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:12:06.262637+00:00,RU_875,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:12:07.985485+00:00,RU_875,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:12:08.700368+00:00,RU_875,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:12:09.248342+00:00,RU_875,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:12:09.827096+00:00,RU_875,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:12:10.751495+00:00,RU_875,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:12:11.668040+00:00,RU_875,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:12:12.181678+00:00,RU_875,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:12:13.110443+00:00,RU_853,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:12:13.730968+00:00,RU_853,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:12:14.340759+00:00,RU_853,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:12:15.221911+00:00,RU_853,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:12:15.931228+00:00,RU_853,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:12:16.699505+00:00,RU_853,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:12:19.141328+00:00,RU_853,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:12:20.147779+00:00,RU_853,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:12:20.935201+00:00,RU_853,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:12:21.309756+00:00,RU_853,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:12:21.951108+00:00,RU_853,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:12:25.510288+00:00,RU_853,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:12:26.405208+00:00,RU_853,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:12:27.102017+00:00,RU_853,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:12:27.974720+00:00,RU_853,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:12:28.649005+00:00,RU_853,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:12:29.549956+00:00,RU_853,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:12:30.380580+00:00,RU_853,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:12:31.012731+00:00,RU_853,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:12:31.431217+00:00,RU_853,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:12:32.006667+00:00,RU_853,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:12:32.766794+00:00,RU_853,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:12:33.743309+00:00,RU_853,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:12:34.402761+00:00,RU_853,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:12:35.649355+00:00,RU_853,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:12:36.243966+00:00,RU_853,N6,Get upset easily.,Moderately Accurate,4
+2025-11-11T19:12:37.061231+00:00,RU_853,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:12:37.989398+00:00,RU_853,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:12:38.702791+00:00,RU_853,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:12:39.712116+00:00,RU_853,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:12:40.561543+00:00,RU_853,E1,Am the life of the party.,Moderately Inaccurate,2
+2025-11-11T19:12:41.289875+00:00,RU_853,E2,Don't talk a lot.,Moderately Inaccurate,2
+2025-11-11T19:12:42.154229+00:00,RU_853,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:12:42.921429+00:00,RU_853,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:12:43.704615+00:00,RU_853,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:12:44.865176+00:00,RU_853,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:12:45.565841+00:00,RU_853,E7,Talk to a lot of different people at parties.,Moderately Inaccurate,2
+2025-11-11T19:12:46.381803+00:00,RU_853,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:12:47.098667+00:00,RU_853,E9,Don't mind being the center of attention.,Moderately Inaccurate,2
+2025-11-11T19:12:47.715044+00:00,RU_853,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:12:48.228555+00:00,RU_853,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:12:53.453946+00:00,RU_853,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:12:54.986299+00:00,RU_853,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:12:55.498903+00:00,RU_853,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:12:56.214283+00:00,RU_853,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:12:57.136414+00:00,RU_853,C6,Often forget to put things back in their proper place.,Moderately Inaccurate,2
+2025-11-11T19:12:57.955312+00:00,RU_853,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:12:58.569046+00:00,RU_853,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:12:59.286863+00:00,RU_853,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:13:00.210371+00:00,RU_853,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:13:01.027099+00:00,RU_716,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:13:01.642583+00:00,RU_716,A2,Am interested in people.,Moderately Accurate,4
+2025-11-11T19:13:02.461125+00:00,RU_716,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:13:02.971939+00:00,RU_716,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:13:03.789686+00:00,RU_716,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:13:04.621872+00:00,RU_716,A6,Have a soft heart.,Moderately Accurate,4
+2025-11-11T19:13:05.430026+00:00,RU_716,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:13:06.098110+00:00,RU_716,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:13:06.659447+00:00,RU_716,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:13:07.214063+00:00,RU_716,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:13:08.908619+00:00,RU_716,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:13:09.644568+00:00,RU_716,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:13:11.045726+00:00,RU_716,O3,Have a vivid imagination.,Moderately Inaccurate,2
+2025-11-11T19:13:11.722529+00:00,RU_716,O4,Am not interested in abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:13:12.393864+00:00,RU_716,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:13:13.519686+00:00,RU_716,O6,Do not have a good imagination.,Moderately Inaccurate,2
+2025-11-11T19:13:14.134893+00:00,RU_716,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:13:15.261299+00:00,RU_716,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:13:16.146686+00:00,RU_716,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:13:17.310035+00:00,RU_716,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:13:17.932324+00:00,RU_716,N1,Get stressed out easily.,Moderately Inaccurate,2
+2025-11-11T19:13:18.899165+00:00,RU_716,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:13:19.664744+00:00,RU_716,N3,Worry about things.,Moderately Inaccurate,2
+2025-11-11T19:13:20.276583+00:00,RU_716,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:13:20.778959+00:00,RU_716,N5,Am easily disturbed.,Moderately Inaccurate,2
+2025-11-11T19:13:21.406374+00:00,RU_716,N6,Get upset easily.,Moderately Inaccurate,2
+2025-11-11T19:13:22.530740+00:00,RU_716,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:13:24.172763+00:00,RU_716,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:13:24.887534+00:00,RU_716,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:13:25.570336+00:00,RU_716,N10,Often feel blue.,Moderately Inaccurate,2
+2025-11-11T19:13:26.288421+00:00,RU_716,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:13:26.981140+00:00,RU_716,E2,Don't talk a lot.,Very Accurate,5
+2025-11-11T19:13:27.682751+00:00,RU_716,E3,Feel comfortable around people.,Moderately Inaccurate,2
+2025-11-11T19:13:28.344394+00:00,RU_716,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:13:28.981885+00:00,RU_716,E5,Start conversations.,Moderately Inaccurate,2
+2025-11-11T19:13:30.009397+00:00,RU_716,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:13:30.806866+00:00,RU_716,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:13:31.338148+00:00,RU_716,E8,Don't like to draw attention to myself.,Very Accurate,5
+2025-11-11T19:13:32.154240+00:00,RU_716,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:13:33.145382+00:00,RU_716,E10,Am quiet around strangers.,Very Accurate,5
+2025-11-11T19:13:34.083297+00:00,RU_716,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:13:34.608967+00:00,RU_716,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:13:36.208856+00:00,RU_716,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:13:36.664488+00:00,RU_716,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:13:38.266357+00:00,RU_716,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:13:39.264494+00:00,RU_716,C6,Often forget to put things back in their proper place.,Moderately Inaccurate,2
+2025-11-11T19:13:39.845553+00:00,RU_716,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:13:40.574699+00:00,RU_716,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:13:41.038599+00:00,RU_716,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:13:41.880481+00:00,RU_716,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:13:43.046752+00:00,RU_912,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:13:43.646951+00:00,RU_912,A2,Am interested in people.,Moderately Accurate,4
+2025-11-11T19:13:44.560027+00:00,RU_912,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:13:45.431066+00:00,RU_912,A4,Sympathize with others' feelings.,Moderately Accurate,4
+2025-11-11T19:13:46.145724+00:00,RU_912,A5,Am not interested in other people's problems.,Moderately Inaccurate,2
+2025-11-11T19:13:46.771198+00:00,RU_912,A6,Have a soft heart.,Moderately Accurate,4
+2025-11-11T19:13:47.556787+00:00,RU_912,A7,Am not really interested in others.,Moderately Inaccurate,2
+2025-11-11T19:13:48.217432+00:00,RU_912,A8,Take time out for others.,Moderately Accurate,4
+2025-11-11T19:13:48.718744+00:00,RU_912,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:13:49.222358+00:00,RU_912,A10,Make people feel at ease.,Moderately Accurate,4
+2025-11-11T19:13:53.155477+00:00,RU_912,O1,Have a rich vocabulary.,Moderately Inaccurate,2
+2025-11-11T19:13:53.972718+00:00,RU_912,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:13:54.683852+00:00,RU_912,O3,Have a vivid imagination.,Moderately Inaccurate,2
+2025-11-11T19:13:55.298649+00:00,RU_912,O4,Am not interested in abstract ideas.,Moderately Accurate,4
+2025-11-11T19:13:56.118614+00:00,RU_912,O5,Have excellent ideas.,Moderately Inaccurate,2
+2025-11-11T19:13:56.840390+00:00,RU_912,O6,Do not have a good imagination.,Moderately Accurate,4
+2025-11-11T19:13:57.655562+00:00,RU_912,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:13:58.300251+00:00,RU_912,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:13:58.924968+00:00,RU_912,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:13:59.913098+00:00,RU_912,O10,Am full of ideas.,Moderately Inaccurate,2
+2025-11-11T19:14:00.545104+00:00,RU_912,N1,Get stressed out easily.,Moderately Inaccurate,2
+2025-11-11T19:14:01.252210+00:00,RU_912,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:14:01.967071+00:00,RU_912,N3,Worry about things.,Moderately Inaccurate,2
+2025-11-11T19:14:02.560361+00:00,RU_912,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:14:06.336484+00:00,RU_912,N5,Am easily disturbed.,Moderately Inaccurate,2
+2025-11-11T19:14:08.104149+00:00,RU_912,N6,Get upset easily.,Moderately Inaccurate,2
+2025-11-11T19:14:09.207399+00:00,RU_912,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:14:09.839069+00:00,RU_912,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:14:10.458708+00:00,RU_912,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:14:11.201948+00:00,RU_912,N10,Often feel blue.,Moderately Inaccurate,2
+2025-11-11T19:14:11.869825+00:00,RU_912,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:14:12.381129+00:00,RU_912,E2,Don't talk a lot.,Moderately Accurate,4
+2025-11-11T19:14:12.956754+00:00,RU_912,E3,Feel comfortable around people.,Moderately Inaccurate,2
+2025-11-11T19:14:13.732506+00:00,RU_912,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:14:14.215798+00:00,RU_912,E5,Start conversations.,Moderately Inaccurate,2
+2025-11-11T19:14:14.768717+00:00,RU_912,E6,Have little to say.,Moderately Inaccurate,2
+2025-11-11T19:14:15.677291+00:00,RU_912,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:14:16.602688+00:00,RU_912,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:14:17.318298+00:00,RU_912,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:14:18.649435+00:00,RU_912,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:14:19.366964+00:00,RU_912,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:14:19.979291+00:00,RU_912,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:14:20.489859+00:00,RU_912,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:14:21.207122+00:00,RU_912,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:14:21.844470+00:00,RU_912,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:14:22.539933+00:00,RU_912,C6,Often forget to put things back in their proper place.,Moderately Inaccurate,2
+2025-11-11T19:14:23.251941+00:00,RU_912,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:14:23.969907+00:00,RU_912,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:14:24.618485+00:00,RU_912,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:14:25.341584+00:00,RU_912,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:14:26.534891+00:00,RU_503,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:14:29.706728+00:00,RU_503,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:14:30.695382+00:00,RU_503,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:14:31.327555+00:00,RU_503,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:14:32.264753+00:00,RU_503,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:14:33.007248+00:00,RU_503,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:14:33.584336+00:00,RU_503,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:14:34.210172+00:00,RU_503,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:14:35.329695+00:00,RU_503,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:14:35.829986+00:00,RU_503,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:14:36.464741+00:00,RU_503,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:14:37.387139+00:00,RU_503,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:14:38.143233+00:00,RU_503,O3,Have a vivid imagination.,Moderately Inaccurate,2
+2025-11-11T19:14:38.921150+00:00,RU_503,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:14:39.434471+00:00,RU_503,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:14:40.164464+00:00,RU_503,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:14:41.892683+00:00,RU_503,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:14:42.608617+00:00,RU_503,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:14:43.428830+00:00,RU_503,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:14:44.255918+00:00,RU_503,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:14:44.965584+00:00,RU_503,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:14:45.679904+00:00,RU_503,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:14:46.244597+00:00,RU_503,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:14:47.236722+00:00,RU_503,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:14:49.265179+00:00,RU_503,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:14:50.710078+00:00,RU_503,N6,Get upset easily.,Moderately Inaccurate,2
+2025-11-11T19:14:51.679355+00:00,RU_503,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:14:52.261102+00:00,RU_503,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:14:52.876362+00:00,RU_503,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:14:53.378718+00:00,RU_503,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:14:54.235482+00:00,RU_503,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:14:55.099076+00:00,RU_503,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:14:55.713939+00:00,RU_503,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:14:56.636526+00:00,RU_503,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:14:56.995560+00:00,RU_503,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:14:57.659233+00:00,RU_503,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:14:58.206723+00:00,RU_503,E7,Talk to a lot of different people at parties.,Moderately Inaccurate,2
+2025-11-11T19:14:58.859969+00:00,RU_503,E8,Don't like to draw attention to myself.,Very Accurate,5
+2025-11-11T19:14:59.489218+00:00,RU_503,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:15:00.197486+00:00,RU_503,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:15:00.854435+00:00,RU_503,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:15:01.653445+00:00,RU_503,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:15:02.352374+00:00,RU_503,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:15:03.149483+00:00,RU_503,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:15:03.914430+00:00,RU_503,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:15:04.723808+00:00,RU_503,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:15:10.883552+00:00,RU_503,C7,Like order.,Very Accurate,5
+2025-11-11T19:15:12.045351+00:00,RU_503,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:15:12.608039+00:00,RU_503,C9,Follow a schedule.,Very Accurate,5
+2025-11-11T19:15:13.244802+00:00,RU_503,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:15:14.048594+00:00,RU_662,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:15:14.616723+00:00,RU_662,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:15:15.579420+00:00,RU_662,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:15:16.297638+00:00,RU_662,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:15:17.014520+00:00,RU_662,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:15:17.782997+00:00,RU_662,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:15:18.233236+00:00,RU_662,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:15:18.991189+00:00,RU_662,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:15:19.886156+00:00,RU_662,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:15:20.495580+00:00,RU_662,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:15:21.348058+00:00,RU_662,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:15:22.134880+00:00,RU_662,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:15:22.730706+00:00,RU_662,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:15:23.777216+00:00,RU_662,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:15:25.440737+00:00,RU_662,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:15:26.331911+00:00,RU_662,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:15:27.358637+00:00,RU_662,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:15:28.177913+00:00,RU_662,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:15:28.996833+00:00,RU_662,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:15:29.711315+00:00,RU_662,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:15:30.360404+00:00,RU_662,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:15:31.042307+00:00,RU_662,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:15:31.660234+00:00,RU_662,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:15:32.272371+00:00,RU_662,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:15:32.885326+00:00,RU_662,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:15:33.499695+00:00,RU_662,N6,Get upset easily.,Moderately Accurate,4
+2025-11-11T19:15:34.116432+00:00,RU_662,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:15:34.732827+00:00,RU_662,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:15:35.670247+00:00,RU_662,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:15:36.407684+00:00,RU_662,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:15:36.981249+00:00,RU_662,E1,Am the life of the party.,Moderately Inaccurate,2
+2025-11-11T19:15:37.902769+00:00,RU_662,E2,Don't talk a lot.,Moderately Inaccurate,2
+2025-11-11T19:15:41.999780+00:00,RU_662,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:15:42.645100+00:00,RU_662,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:15:43.127642+00:00,RU_662,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:15:43.948897+00:00,RU_662,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:15:44.973948+00:00,RU_662,E7,Talk to a lot of different people at parties.,Moderately Inaccurate,2
+2025-11-11T19:15:45.481300+00:00,RU_662,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:15:46.402373+00:00,RU_662,E9,Don't mind being the center of attention.,Moderately Inaccurate,2
+2025-11-11T19:15:47.017330+00:00,RU_662,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:15:47.699346+00:00,RU_662,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:15:48.759974+00:00,RU_662,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:15:49.577969+00:00,RU_662,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:15:50.399563+00:00,RU_662,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:15:51.319109+00:00,RU_662,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:15:52.342150+00:00,RU_662,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:15:53.058825+00:00,RU_662,C7,Like order.,Very Accurate,5
+2025-11-11T19:15:55.006128+00:00,RU_662,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:15:55.721997+00:00,RU_662,C9,Follow a schedule.,Very Accurate,5
+2025-11-11T19:15:56.235820+00:00,RU_662,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:15:56.990447+00:00,RU_002,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:15:57.365695+00:00,RU_002,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:15:57.975953+00:00,RU_002,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:16:00.945944+00:00,RU_002,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:16:02.073193+00:00,RU_002,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:17:09.359477+00:00,RU_002,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:17:10.224723+00:00,RU_002,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:17:11.278822+00:00,RU_002,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:17:12.054693+00:00,RU_002,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:17:12.631252+00:00,RU_002,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:17:13.069207+00:00,RU_002,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:17:14.392917+00:00,RU_002,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:17:14.979745+00:00,RU_002,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:17:15.494808+00:00,RU_002,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:17:16.516414+00:00,RU_002,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:17:18.211044+00:00,RU_002,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:17:18.833439+00:00,RU_002,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:17:19.691132+00:00,RU_002,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:17:20.445929+00:00,RU_002,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:17:21.185672+00:00,RU_002,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:17:21.921035+00:00,RU_002,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:17:23.096864+00:00,RU_002,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:17:23.819354+00:00,RU_002,N3,Worry about things.,Very Inaccurate,1
+2025-11-11T19:17:25.267843+00:00,RU_002,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:17:25.881645+00:00,RU_002,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:17:26.411272+00:00,RU_002,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:17:27.139758+00:00,RU_002,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:17:28.100048+00:00,RU_002,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:17:28.923392+00:00,RU_002,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:17:30.002347+00:00,RU_002,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:17:30.960071+00:00,RU_002,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:17:31.881702+00:00,RU_002,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:17:33.059294+00:00,RU_002,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:17:33.582761+00:00,RU_002,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:17:34.116535+00:00,RU_002,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:17:35.156023+00:00,RU_002,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:17:35.917987+00:00,RU_002,E7,Talk to a lot of different people at parties.,Moderately Inaccurate,2
+2025-11-11T19:17:36.535626+00:00,RU_002,E8,Don't like to draw attention to myself.,Very Inaccurate,1
+2025-11-11T19:17:37.252326+00:00,RU_002,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:17:37.815767+00:00,RU_002,E10,Am quiet around strangers.,Very Inaccurate,1
+2025-11-11T19:17:38.656766+00:00,RU_002,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:17:39.431531+00:00,RU_002,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:17:40.081652+00:00,RU_002,C3,Pay attention to details.,Very Accurate,5
+2025-11-11T19:17:40.688051+00:00,RU_002,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:17:44.264079+00:00,RU_002,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:17:45.906754+00:00,RU_002,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:17:46.451525+00:00,RU_002,C7,Like order.,Very Accurate,5
+2025-11-11T19:17:47.772014+00:00,RU_002,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:17:48.595279+00:00,RU_002,C9,Follow a schedule.,Very Accurate,5
+2025-11-11T19:17:49.404275+00:00,RU_002,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:17:51.007764+00:00,RU_729,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:17:51.640127+00:00,RU_729,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:17:52.152382+00:00,RU_729,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:17:52.869812+00:00,RU_729,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:17:53.675569+00:00,RU_729,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:17:54.098672+00:00,RU_729,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:17:54.518834+00:00,RU_729,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:17:56.463020+00:00,RU_729,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:17:56.934491+00:00,RU_729,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:17:57.664995+00:00,RU_729,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:17:58.085948+00:00,RU_729,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:17:58.811092+00:00,RU_729,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:17:59.665105+00:00,RU_729,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:18:00.226735+00:00,RU_729,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:18:00.740407+00:00,RU_729,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:18:01.295967+00:00,RU_729,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:18:01.736136+00:00,RU_729,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:18:02.296949+00:00,RU_729,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:18:03.049566+00:00,RU_729,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:18:03.721771+00:00,RU_729,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:18:04.342825+00:00,RU_729,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:18:04.770887+00:00,RU_729,N2,Am relaxed most of the time.,Very Accurate,5
+2025-11-11T19:18:05.283558+00:00,RU_729,N3,Worry about things.,Very Inaccurate,1
+2025-11-11T19:18:08.996362+00:00,RU_729,N4,Seldom feel blue.,Very Accurate,5
+2025-11-11T19:18:09.503501+00:00,RU_729,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:18:10.020582+00:00,RU_729,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:18:10.652458+00:00,RU_729,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:18:11.257128+00:00,RU_729,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:18:11.881366+00:00,RU_729,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:18:12.631120+00:00,RU_729,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:18:17.656400+00:00,RU_729,E1,Am the life of the party.,Very Accurate,5
+2025-11-11T19:18:18.259043+00:00,RU_729,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:18:18.879374+00:00,RU_729,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:18:20.315037+00:00,RU_729,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:18:21.488959+00:00,RU_729,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:18:21.989641+00:00,RU_729,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:18:22.724385+00:00,RU_729,E7,Talk to a lot of different people at parties.,Very Accurate,5
+2025-11-11T19:18:23.690553+00:00,RU_729,E8,Don't like to draw attention to myself.,Very Inaccurate,1
+2025-11-11T19:18:24.406264+00:00,RU_729,E9,Don't mind being the center of attention.,Very Accurate,5
+2025-11-11T19:18:26.252114+00:00,RU_729,E10,Am quiet around strangers.,Very Inaccurate,1
+2025-11-11T19:18:27.376108+00:00,RU_729,C1,Am always prepared.,Very Accurate,5
+2025-11-11T19:18:27.786840+00:00,RU_729,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:18:28.299791+00:00,RU_729,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:18:29.423793+00:00,RU_729,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:18:30.038778+00:00,RU_729,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:18:31.285367+00:00,RU_729,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:18:31.986373+00:00,RU_729,C7,Like order.,Very Accurate,5
+2025-11-11T19:18:32.617471+00:00,RU_729,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:18:33.421517+00:00,RU_729,C9,Follow a schedule.,Very Accurate,5
+2025-11-11T19:18:34.135192+00:00,RU_729,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:18:35.077963+00:00,RU_008,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:18:36.491636+00:00,RU_008,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:18:37.943264+00:00,RU_008,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:18:39.770193+00:00,RU_008,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:18:40.733961+00:00,RU_008,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:18:41.270964+00:00,RU_008,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:18:41.713690+00:00,RU_008,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:18:42.371266+00:00,RU_008,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:18:43.288857+00:00,RU_008,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:18:44.037524+00:00,RU_008,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:18:44.548259+00:00,RU_008,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:18:45.109509+00:00,RU_008,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:18:45.911950+00:00,RU_008,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:18:46.438027+00:00,RU_008,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:18:47.013771+00:00,RU_008,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:18:47.556434+00:00,RU_008,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:18:48.097265+00:00,RU_008,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:18:48.779526+00:00,RU_008,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:18:49.597952+00:00,RU_008,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:18:50.414783+00:00,RU_008,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:18:51.019102+00:00,RU_008,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:18:51.762037+00:00,RU_008,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:18:52.329355+00:00,RU_008,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:18:53.044192+00:00,RU_008,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:18:53.797634+00:00,RU_008,N5,Am easily disturbed.,Moderately Inaccurate,2
+2025-11-11T19:18:54.411293+00:00,RU_008,N6,Get upset easily.,Moderately Inaccurate,2
+2025-11-11T19:18:54.904921+00:00,RU_008,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:18:55.442983+00:00,RU_008,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:18:56.062946+00:00,RU_008,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:18:57.137331+00:00,RU_008,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:18:57.997065+00:00,RU_008,E1,Am the life of the party.,Moderately Inaccurate,2
+2025-11-11T19:18:58.607147+00:00,RU_008,E2,Don't talk a lot.,Moderately Accurate,4
+2025-11-11T19:18:59.122264+00:00,RU_008,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:19:03.510062+00:00,RU_008,E4,Keep in the background.,Neither Accurate Nor Inaccurate,3
+2025-11-11T19:19:04.037356+00:00,RU_008,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:19:04.651167+00:00,RU_008,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:20:03.463736+00:00,RU_008,E7,Talk to a lot of different people at parties.,Moderately Accurate,4
+2025-11-11T19:20:04.390217+00:00,RU_008,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:20:05.185889+00:00,RU_008,E9,Don't mind being the center of attention.,Moderately Inaccurate,2
+2025-11-11T19:20:06.251647+00:00,RU_008,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:20:07.121714+00:00,RU_008,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:20:07.953954+00:00,RU_008,C2,Leave my belongings around.,Moderately Inaccurate,2
+2025-11-11T19:20:08.872276+00:00,RU_008,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:20:09.602685+00:00,RU_008,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:20:10.269797+00:00,RU_008,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:20:11.132765+00:00,RU_008,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:20:11.926573+00:00,RU_008,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:20:13.642345+00:00,RU_008,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:20:14.281538+00:00,RU_008,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:20:14.994509+00:00,RU_008,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:20:16.152689+00:00,RU_431,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:20:16.884036+00:00,RU_431,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:20:17.273196+00:00,RU_431,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:20:17.650116+00:00,RU_431,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:20:18.888979+00:00,RU_431,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:20:19.750656+00:00,RU_431,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:20:20.628960+00:00,RU_431,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:20:21.365852+00:00,RU_431,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:20:22.026715+00:00,RU_431,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:20:22.764638+00:00,RU_431,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:20:23.537226+00:00,RU_431,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:20:24.601530+00:00,RU_431,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:20:25.498146+00:00,RU_431,O3,Have a vivid imagination.,Moderately Inaccurate,2
+2025-11-11T19:20:26.890603+00:00,RU_431,O4,Am not interested in abstract ideas.,Very Accurate,5
+2025-11-11T19:20:27.569551+00:00,RU_431,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:20:28.091489+00:00,RU_431,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:20:28.823122+00:00,RU_431,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:20:29.848199+00:00,RU_431,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:20:30.339291+00:00,RU_431,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:20:30.872407+00:00,RU_431,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:20:31.588743+00:00,RU_431,N1,Get stressed out easily.,Very Inaccurate,1
+2025-11-11T19:20:32.204781+00:00,RU_431,N2,Am relaxed most of the time.,Moderately Inaccurate,2
+2025-11-11T19:20:33.150848+00:00,RU_431,N3,Worry about things.,Moderately Inaccurate,2
+2025-11-11T19:20:34.156503+00:00,RU_431,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:20:35.458771+00:00,RU_431,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:20:36.025377+00:00,RU_431,N6,Get upset easily.,Very Inaccurate,1
+2025-11-11T19:20:36.838343+00:00,RU_431,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:20:37.733937+00:00,RU_431,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:20:38.244571+00:00,RU_431,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:20:38.964559+00:00,RU_431,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:20:40.294061+00:00,RU_431,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:20:40.806153+00:00,RU_431,E2,Don't talk a lot.,Moderately Inaccurate,2
+2025-11-11T19:20:41.701664+00:00,RU_431,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:20:42.341980+00:00,RU_431,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:20:43.648118+00:00,RU_431,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:20:44.286844+00:00,RU_431,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:20:44.910704+00:00,RU_431,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:20:45.547722+00:00,RU_431,E8,Don't like to draw attention to myself.,Very Accurate,5
+2025-11-11T19:20:46.029024+00:00,RU_431,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:20:46.448695+00:00,RU_431,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:20:47.256517+00:00,RU_431,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:20:48.790300+00:00,RU_431,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:20:49.612965+00:00,RU_431,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:20:50.535703+00:00,RU_431,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:20:51.665228+00:00,RU_431,C5,Get chores done right away.,Very Accurate,5
+2025-11-11T19:20:52.680682+00:00,RU_431,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:20:56.607237+00:00,RU_431,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:20:57.330925+00:00,RU_431,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:20:57.958942+00:00,RU_431,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:20:58.733732+00:00,RU_431,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:20:59.449506+00:00,RU_862,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:21:04.372662+00:00,RU_862,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:21:04.959692+00:00,RU_862,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:21:06.496845+00:00,RU_862,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:21:07.057463+00:00,RU_862,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:21:07.877454+00:00,RU_862,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:21:08.348680+00:00,RU_862,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:21:09.376162+00:00,RU_862,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:21:10.297467+00:00,RU_862,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:21:10.808800+00:00,RU_862,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:21:12.375482+00:00,RU_862,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:21:12.743013+00:00,RU_862,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:21:13.237820+00:00,RU_862,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:21:14.702958+00:00,RU_862,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:21:15.438423+00:00,RU_862,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:21:16.542883+00:00,RU_862,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:21:17.749813+00:00,RU_862,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:21:19.777945+00:00,RU_862,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:21:21.257376+00:00,RU_862,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:21:21.947734+00:00,RU_862,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:21:22.717070+00:00,RU_862,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:21:23.691553+00:00,RU_862,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:21:24.456362+00:00,RU_862,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:21:25.963480+00:00,RU_862,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:21:26.986923+00:00,RU_862,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:21:27.911673+00:00,RU_862,N6,Get upset easily.,Moderately Accurate,4
+2025-11-11T19:21:28.930218+00:00,RU_862,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:21:29.444346+00:00,RU_862,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:21:30.433984+00:00,RU_862,N9,Get irritated easily.,Moderately Accurate,4
+2025-11-11T19:21:31.594696+00:00,RU_862,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:21:32.413972+00:00,RU_862,E1,Am the life of the party.,Moderately Inaccurate,2
+2025-11-11T19:21:33.947616+00:00,RU_862,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:21:35.689119+00:00,RU_862,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:21:37.125328+00:00,RU_862,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:21:38.968949+00:00,RU_862,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:21:40.749274+00:00,RU_862,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:21:42.344908+00:00,RU_862,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:21:43.896184+00:00,RU_862,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:21:45.520829+00:00,RU_862,E9,Don't mind being the center of attention.,Moderately Inaccurate,2
+2025-11-11T19:21:46.852764+00:00,RU_862,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:21:48.294708+00:00,RU_862,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:21:49.002984+00:00,RU_862,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:21:50.675711+00:00,RU_862,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:21:51.460293+00:00,RU_862,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:21:52.688909+00:00,RU_862,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:21:53.815562+00:00,RU_862,C6,Often forget to put things back in their proper place.,Moderately Inaccurate,2
+2025-11-11T19:21:54.940012+00:00,RU_862,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:21:56.127178+00:00,RU_862,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:21:56.988164+00:00,RU_862,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:21:58.321270+00:00,RU_862,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:21:59.139077+00:00,RU_980,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:22:01.083750+00:00,RU_980,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:22:01.904698+00:00,RU_980,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:22:02.622073+00:00,RU_980,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:22:03.733063+00:00,RU_980,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:22:04.261245+00:00,RU_980,A6,Have a soft heart.,Moderately Accurate,4
+2025-11-11T19:22:04.771733+00:00,RU_980,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:22:05.384817+00:00,RU_980,A8,Take time out for others.,Moderately Accurate,4
+2025-11-11T19:22:06.204048+00:00,RU_980,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:22:06.822564+00:00,RU_980,A10,Make people feel at ease.,Moderately Accurate,4
+2025-11-11T19:22:07.740973+00:00,RU_980,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:22:08.252933+00:00,RU_980,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:22:09.279388+00:00,RU_980,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:22:09.995076+00:00,RU_980,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:22:10.607813+00:00,RU_980,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:22:11.123258+00:00,RU_980,O6,Do not have a good imagination.,Moderately Inaccurate,2
+2025-11-11T19:22:11.624010+00:00,RU_980,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:22:12.903645+00:00,RU_980,O8,Use difficult words.,Moderately Accurate,4
+2025-11-11T19:22:14.251850+00:00,RU_980,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:22:15.774587+00:00,RU_980,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:22:17.266085+00:00,RU_980,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:22:17.815032+00:00,RU_980,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:22:19.522842+00:00,RU_980,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:22:20.029054+00:00,RU_980,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:22:20.646212+00:00,RU_980,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:22:23.153680+00:00,RU_980,N6,Get upset easily.,Moderately Accurate,4
+2025-11-11T19:22:24.920766+00:00,RU_980,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:22:26.451293+00:00,RU_980,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:22:26.993472+00:00,RU_980,N9,Get irritated easily.,Moderately Inaccurate,2
+2025-11-11T19:22:28.854412+00:00,RU_980,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:22:29.689745+00:00,RU_980,E1,Am the life of the party.,Moderately Inaccurate,2
+2025-11-11T19:22:30.741948+00:00,RU_980,E2,Don't talk a lot.,Moderately Inaccurate,2
+2025-11-11T19:22:31.194318+00:00,RU_980,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:22:32.033241+00:00,RU_980,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:22:32.769072+00:00,RU_980,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:22:36.638055+00:00,RU_980,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:22:37.390283+00:00,RU_980,E7,Talk to a lot of different people at parties.,Moderately Accurate,4
+2025-11-11T19:22:39.585137+00:00,RU_980,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:22:40.118472+00:00,RU_980,E9,Don't mind being the center of attention.,Moderately Inaccurate,2
+2025-11-11T19:22:40.636626+00:00,RU_980,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:22:41.290564+00:00,RU_980,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:22:41.810534+00:00,RU_980,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:22:44.472621+00:00,RU_980,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:22:45.370326+00:00,RU_980,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:22:48.376541+00:00,RU_980,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:22:49.023278+00:00,RU_980,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:22:49.546333+00:00,RU_980,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:22:50.264266+00:00,RU_980,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:22:50.777988+00:00,RU_980,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:22:51.671088+00:00,RU_980,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:22:52.593947+00:00,RU_502,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:22:53.106286+00:00,RU_502,A2,Am interested in people.,Moderately Accurate,4
+2025-11-11T19:22:53.649976+00:00,RU_502,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:22:54.099024+00:00,RU_502,A4,Sympathize with others' feelings.,Moderately Accurate,4
+2025-11-11T19:22:54.847240+00:00,RU_502,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:22:55.461795+00:00,RU_502,A6,Have a soft heart.,Moderately Accurate,4
+2025-11-11T19:22:56.079471+00:00,RU_502,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:22:56.793127+00:00,RU_502,A8,Take time out for others.,Moderately Accurate,4
+2025-11-11T19:22:57.234317+00:00,RU_502,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:22:57.798018+00:00,RU_502,A10,Make people feel at ease.,Moderately Accurate,4
+2025-11-11T19:22:58.324337+00:00,RU_502,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:22:58.966356+00:00,RU_502,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:22:59.659360+00:00,RU_502,O3,Have a vivid imagination.,Moderately Inaccurate,2
+2025-11-11T19:23:00.294458+00:00,RU_502,O4,Am not interested in abstract ideas.,Moderately Accurate,4
+2025-11-11T19:23:00.992701+00:00,RU_502,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:23:01.522451+00:00,RU_502,O6,Do not have a good imagination.,Moderately Accurate,4
+2025-11-11T19:23:02.036318+00:00,RU_502,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:23:02.631938+00:00,RU_502,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:23:03.174692+00:00,RU_502,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:23:03.856600+00:00,RU_502,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:23:04.472928+00:00,RU_502,N1,Get stressed out easily.,Moderately Inaccurate,2
+2025-11-11T19:23:05.395205+00:00,RU_502,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:23:05.905088+00:00,RU_502,N3,Worry about things.,Moderately Inaccurate,2
+2025-11-11T19:23:06.521688+00:00,RU_502,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:23:07.135207+00:00,RU_502,N5,Am easily disturbed.,Moderately Inaccurate,2
+2025-11-11T19:23:07.750338+00:00,RU_502,N6,Get upset easily.,Moderately Inaccurate,2
+2025-11-11T19:23:08.365030+00:00,RU_502,N7,Change my mood a lot.,Very Inaccurate,1
+2025-11-11T19:23:09.184953+00:00,RU_502,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:23:09.798211+00:00,RU_502,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:23:10.822081+00:00,RU_502,N10,Often feel blue.,Moderately Inaccurate,2
+2025-11-11T19:23:11.968378+00:00,RU_502,E1,Am the life of the party.,Very Inaccurate,1
+2025-11-11T19:23:12.973116+00:00,RU_502,E2,Don't talk a lot.,Moderately Inaccurate,2
+2025-11-11T19:23:13.585535+00:00,RU_502,E3,Feel comfortable around people.,Moderately Inaccurate,2
+2025-11-11T19:23:14.310950+00:00,RU_502,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:23:14.916393+00:00,RU_502,E5,Start conversations.,Moderately Inaccurate,2
+2025-11-11T19:23:15.643064+00:00,RU_502,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:23:16.146882+00:00,RU_502,E7,Talk to a lot of different people at parties.,Very Inaccurate,1
+2025-11-11T19:23:16.864018+00:00,RU_502,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:23:17.481105+00:00,RU_502,E9,Don't mind being the center of attention.,Very Inaccurate,1
+2025-11-11T19:23:18.091491+00:00,RU_502,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:23:18.709339+00:00,RU_502,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:23:19.218162+00:00,RU_502,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:23:19.627700+00:00,RU_502,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:23:20.142208+00:00,RU_502,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:23:21.086098+00:00,RU_502,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:23:21.983050+00:00,RU_502,C6,Often forget to put things back in their proper place.,Moderately Inaccurate,2
+2025-11-11T19:23:22.496877+00:00,RU_502,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:23:23.316582+00:00,RU_502,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:23:24.849899+00:00,RU_502,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:23:25.568297+00:00,RU_502,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:23:26.388206+00:00,RU_408,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:23:26.897819+00:00,RU_408,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:23:27.615593+00:00,RU_408,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:23:28.331316+00:00,RU_408,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:23:29.563402+00:00,RU_408,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:23:30.074237+00:00,RU_408,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:23:30.891983+00:00,RU_408,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:23:31.814994+00:00,RU_408,A8,Take time out for others.,Moderately Accurate,4
+2025-11-11T19:23:32.529020+00:00,RU_408,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:23:33.252040+00:00,RU_408,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:23:33.966616+00:00,RU_408,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:23:34.685003+00:00,RU_408,O2,Have difficulty understanding abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:23:35.602312+00:00,RU_408,O3,Have a vivid imagination.,Moderately Accurate,4
+2025-11-11T19:23:36.424053+00:00,RU_408,O4,Am not interested in abstract ideas.,Moderately Inaccurate,2
+2025-11-11T19:23:37.651580+00:00,RU_408,O5,Have excellent ideas.,Moderately Accurate,4
+2025-11-11T19:23:38.573911+00:00,RU_408,O6,Do not have a good imagination.,Moderately Inaccurate,2
+2025-11-11T19:23:39.190968+00:00,RU_408,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:23:40.005435+00:00,RU_408,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:23:40.518488+00:00,RU_408,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:23:41.235396+00:00,RU_408,O10,Am full of ideas.,Moderately Accurate,4
+2025-11-11T19:23:42.465179+00:00,RU_408,N1,Get stressed out easily.,Moderately Accurate,4
+2025-11-11T19:23:43.179606+00:00,RU_408,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:23:43.793643+00:00,RU_408,N3,Worry about things.,Moderately Accurate,4
+2025-11-11T19:23:44.616167+00:00,RU_408,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:23:45.195750+00:00,RU_408,N5,Am easily disturbed.,Moderately Accurate,4
+2025-11-11T19:23:46.010700+00:00,RU_408,N6,Get upset easily.,Moderately Accurate,4
+2025-11-11T19:23:46.585786+00:00,RU_408,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:23:47.657632+00:00,RU_408,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:23:48.228580+00:00,RU_408,N9,Get irritated easily.,Moderately Inaccurate,2
+2025-11-11T19:23:49.091138+00:00,RU_408,N10,Often feel blue.,Moderately Accurate,4
+2025-11-11T19:23:49.861444+00:00,RU_408,E1,Am the life of the party.,Moderately Inaccurate,2
+2025-11-11T19:23:50.503001+00:00,RU_408,E2,Don't talk a lot.,Moderately Inaccurate,2
+2025-11-11T19:23:51.860066+00:00,RU_408,E3,Feel comfortable around people.,Moderately Accurate,4
+2025-11-11T19:23:52.763708+00:00,RU_408,E4,Keep in the background.,Moderately Inaccurate,2
+2025-11-11T19:23:54.859731+00:00,RU_408,E5,Start conversations.,Moderately Accurate,4
+2025-11-11T19:23:56.143935+00:00,RU_408,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:23:58.004353+00:00,RU_408,E7,Talk to a lot of different people at parties.,Moderately Inaccurate,2
+2025-11-11T19:23:58.664096+00:00,RU_408,E8,Don't like to draw attention to myself.,Moderately Accurate,4
+2025-11-11T19:23:59.576093+00:00,RU_408,E9,Don't mind being the center of attention.,Moderately Inaccurate,2
+2025-11-11T19:24:00.518045+00:00,RU_408,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:24:01.285469+00:00,RU_408,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:24:04.703463+00:00,RU_408,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:24:05.347476+00:00,RU_408,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:24:06.267372+00:00,RU_408,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:24:06.956480+00:00,RU_408,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:24:08.069759+00:00,RU_408,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:24:08.777922+00:00,RU_408,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:24:09.806157+00:00,RU_408,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:24:10.930297+00:00,RU_408,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:24:11.528805+00:00,RU_408,C10,Am exacting in my work.,Moderately Accurate,4
+2025-11-11T19:24:12.265435+00:00,RU_326,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:24:12.673269+00:00,RU_326,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:24:13.490852+00:00,RU_326,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:24:14.223262+00:00,RU_326,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:24:14.944433+00:00,RU_326,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:24:15.743374+00:00,RU_326,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:24:16.272447+00:00,RU_326,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:24:16.921759+00:00,RU_326,A8,Take time out for others.,Moderately Accurate,4
+2025-11-11T19:24:17.797806+00:00,RU_326,A9,Feel others' emotions.,Moderately Accurate,4
+2025-11-11T19:24:18.343417+00:00,RU_326,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:24:19.003091+00:00,RU_326,O1,Have a rich vocabulary.,Moderately Accurate,4
+2025-11-11T19:24:19.943151+00:00,RU_326,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:24:20.661709+00:00,RU_326,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:24:21.266975+00:00,RU_326,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:24:31.027868+00:00,RU_326,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:24:31.926865+00:00,RU_326,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:24:32.743305+00:00,RU_326,O7,Am quick to understand things.,Moderately Accurate,4
+2025-11-11T19:24:33.314338+00:00,RU_326,O8,Use difficult words.,Moderately Inaccurate,2
+2025-11-11T19:24:33.972803+00:00,RU_326,O9,Spend time reflecting on things.,Moderately Accurate,4
+2025-11-11T19:24:34.687495+00:00,RU_326,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:24:35.342359+00:00,RU_326,N1,Get stressed out easily.,Moderately Inaccurate,2
+2025-11-11T19:24:36.018588+00:00,RU_326,N2,Am relaxed most of the time.,Moderately Accurate,4
+2025-11-11T19:24:36.734466+00:00,RU_326,N3,Worry about things.,Moderately Inaccurate,2
+2025-11-11T19:24:37.148377+00:00,RU_326,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:24:37.862394+00:00,RU_326,N5,Am easily disturbed.,Moderately Inaccurate,2
+2025-11-11T19:24:39.193972+00:00,RU_326,N6,Get upset easily.,Moderately Inaccurate,2
+2025-11-11T19:24:40.113948+00:00,RU_326,N7,Change my mood a lot.,Moderately Accurate,4
+2025-11-11T19:24:40.831119+00:00,RU_326,N8,Have frequent mood swings.,Moderately Accurate,4
+2025-11-11T19:24:42.166952+00:00,RU_326,N9,Get irritated easily.,Moderately Inaccurate,2
+2025-11-11T19:24:42.879060+00:00,RU_326,N10,Often feel blue.,Moderately Inaccurate,2
+2025-11-11T19:24:43.699338+00:00,RU_326,E1,Am the life of the party.,Very Accurate,5
+2025-11-11T19:24:44.761592+00:00,RU_326,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:24:45.442251+00:00,RU_326,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:24:46.258784+00:00,RU_326,E4,Keep in the background.,Moderately Accurate,4
+2025-11-11T19:24:46.667488+00:00,RU_326,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:24:47.341771+00:00,RU_326,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:24:48.101028+00:00,RU_326,E7,Talk to a lot of different people at parties.,Very Accurate,5
+2025-11-11T19:24:49.536655+00:00,RU_326,E8,Don't like to draw attention to myself.,Moderately Inaccurate,2
+2025-11-11T19:24:50.255028+00:00,RU_326,E9,Don't mind being the center of attention.,Moderately Accurate,4
+2025-11-11T19:24:50.970718+00:00,RU_326,E10,Am quiet around strangers.,Moderately Accurate,4
+2025-11-11T19:24:51.687724+00:00,RU_326,C1,Am always prepared.,Moderately Inaccurate,2
+2025-11-11T19:24:52.610184+00:00,RU_326,C2,Leave my belongings around.,Moderately Inaccurate,2
+2025-11-11T19:24:53.504267+00:00,RU_326,C3,Pay attention to details.,Moderately Inaccurate,2
+2025-11-11T19:24:54.347690+00:00,RU_326,C4,Make a mess of things.,Moderately Inaccurate,2
+2025-11-11T19:24:55.168118+00:00,RU_326,C5,Get chores done right away.,Moderately Inaccurate,2
+2025-11-11T19:24:56.320975+00:00,RU_326,C6,Often forget to put things back in their proper place.,Moderately Accurate,4
+2025-11-11T19:24:57.215000+00:00,RU_326,C7,Like order.,Moderately Inaccurate,2
+2025-11-11T19:24:57.929731+00:00,RU_326,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:24:58.545917+00:00,RU_326,C9,Follow a schedule.,Moderately Inaccurate,2
+2025-11-11T19:24:59.428460+00:00,RU_326,C10,Am exacting in my work.,Moderately Inaccurate,2
+2025-11-11T19:25:00.084265+00:00,RU_261,A1,Feel little concern for others.,Very Inaccurate,1
+2025-11-11T19:25:00.697470+00:00,RU_261,A2,Am interested in people.,Very Accurate,5
+2025-11-11T19:25:01.716267+00:00,RU_261,A3,Insult people.,Very Inaccurate,1
+2025-11-11T19:25:02.279206+00:00,RU_261,A4,Sympathize with others' feelings.,Very Accurate,5
+2025-11-11T19:25:02.980494+00:00,RU_261,A5,Am not interested in other people's problems.,Very Inaccurate,1
+2025-11-11T19:25:03.762067+00:00,RU_261,A6,Have a soft heart.,Very Accurate,5
+2025-11-11T19:25:06.839438+00:00,RU_261,A7,Am not really interested in others.,Very Inaccurate,1
+2025-11-11T19:25:07.890603+00:00,RU_261,A8,Take time out for others.,Very Accurate,5
+2025-11-11T19:25:08.600157+00:00,RU_261,A9,Feel others' emotions.,Very Accurate,5
+2025-11-11T19:25:09.463608+00:00,RU_261,A10,Make people feel at ease.,Very Accurate,5
+2025-11-11T19:25:10.180972+00:00,RU_261,O1,Have a rich vocabulary.,Very Accurate,5
+2025-11-11T19:25:10.855960+00:00,RU_261,O2,Have difficulty understanding abstract ideas.,Very Inaccurate,1
+2025-11-11T19:25:11.557593+00:00,RU_261,O3,Have a vivid imagination.,Very Accurate,5
+2025-11-11T19:25:12.311096+00:00,RU_261,O4,Am not interested in abstract ideas.,Very Inaccurate,1
+2025-11-11T19:25:13.212689+00:00,RU_261,O5,Have excellent ideas.,Very Accurate,5
+2025-11-11T19:25:14.181286+00:00,RU_261,O6,Do not have a good imagination.,Very Inaccurate,1
+2025-11-11T19:25:15.229390+00:00,RU_261,O7,Am quick to understand things.,Very Accurate,5
+2025-11-11T19:25:16.086935+00:00,RU_261,O8,Use difficult words.,Very Inaccurate,1
+2025-11-11T19:25:16.631371+00:00,RU_261,O9,Spend time reflecting on things.,Very Accurate,5
+2025-11-11T19:25:17.613769+00:00,RU_261,O10,Am full of ideas.,Very Accurate,5
+2025-11-11T19:25:18.434749+00:00,RU_261,N1,Get stressed out easily.,Moderately Inaccurate,2
+2025-11-11T19:25:19.202020+00:00,RU_261,N2,Am relaxed most of the time.,Moderately Inaccurate,2
+2025-11-11T19:25:19.771172+00:00,RU_261,N3,Worry about things.,Moderately Inaccurate,2
+2025-11-11T19:25:20.471975+00:00,RU_261,N4,Seldom feel blue.,Moderately Accurate,4
+2025-11-11T19:25:21.211372+00:00,RU_261,N5,Am easily disturbed.,Very Inaccurate,1
+2025-11-11T19:25:22.102679+00:00,RU_261,N6,Get upset easily.,Moderately Inaccurate,2
+2025-11-11T19:25:22.872400+00:00,RU_261,N7,Change my mood a lot.,Moderately Inaccurate,2
+2025-11-11T19:25:23.617751+00:00,RU_261,N8,Have frequent mood swings.,Very Inaccurate,1
+2025-11-11T19:25:24.417998+00:00,RU_261,N9,Get irritated easily.,Very Inaccurate,1
+2025-11-11T19:25:25.067400+00:00,RU_261,N10,Often feel blue.,Very Inaccurate,1
+2025-11-11T19:25:25.989849+00:00,RU_261,E1,Am the life of the party.,Moderately Accurate,4
+2025-11-11T19:25:26.606658+00:00,RU_261,E2,Don't talk a lot.,Very Inaccurate,1
+2025-11-11T19:25:27.524745+00:00,RU_261,E3,Feel comfortable around people.,Very Accurate,5
+2025-11-11T19:25:28.244985+00:00,RU_261,E4,Keep in the background.,Very Inaccurate,1
+2025-11-11T19:25:28.754581+00:00,RU_261,E5,Start conversations.,Very Accurate,5
+2025-11-11T19:25:30.182490+00:00,RU_261,E6,Have little to say.,Very Inaccurate,1
+2025-11-11T19:25:31.142752+00:00,RU_261,E7,Talk to a lot of different people at parties.,Moderately Accurate,4
+2025-11-11T19:25:31.763813+00:00,RU_261,E8,Don't like to draw attention to myself.,Very Inaccurate,1
+2025-11-11T19:25:32.394920+00:00,RU_261,E9,Don't mind being the center of attention.,Moderately Accurate,4
+2025-11-11T19:25:33.050441+00:00,RU_261,E10,Am quiet around strangers.,Very Inaccurate,1
+2025-11-11T19:25:34.502491+00:00,RU_261,C1,Am always prepared.,Moderately Accurate,4
+2025-11-11T19:25:35.032662+00:00,RU_261,C2,Leave my belongings around.,Very Inaccurate,1
+2025-11-11T19:25:35.922466+00:00,RU_261,C3,Pay attention to details.,Moderately Accurate,4
+2025-11-11T19:25:36.421738+00:00,RU_261,C4,Make a mess of things.,Very Inaccurate,1
+2025-11-11T19:25:37.279149+00:00,RU_261,C5,Get chores done right away.,Moderately Accurate,4
+2025-11-11T19:25:37.838624+00:00,RU_261,C6,Often forget to put things back in their proper place.,Very Inaccurate,1
+2025-11-11T19:25:38.790733+00:00,RU_261,C7,Like order.,Moderately Accurate,4
+2025-11-11T19:25:39.355523+00:00,RU_261,C8,Shirk my duties.,Very Inaccurate,1
+2025-11-11T19:25:39.989552+00:00,RU_261,C9,Follow a schedule.,Moderately Accurate,4
+2025-11-11T19:25:41.351810+00:00,RU_261,C10,Am exacting in my work.,Very Accurate,5
+2025-11-11T19:25:42.186644+00:00,RU_292,A1,Feel little concern for others.,Very Inaccurate,1

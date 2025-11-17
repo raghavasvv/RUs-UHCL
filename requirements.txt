@@ -1,0 +1,12 @@
+openai
+pandas
+numpy
+scipy
+statsmodels
+tqdm
+python-dotenv
+matplotlib
+requests
+jsonlines
+ollama
+regex

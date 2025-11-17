@@ -1,0 +1,2 @@
+Comparison,Human↔Human_Corr,Human↔Cloud_Corr,Normalized_Accuracy
+Human1000 vs Cloud1000,0.996785315592456,0.8036293726371606,0.8062211190977568

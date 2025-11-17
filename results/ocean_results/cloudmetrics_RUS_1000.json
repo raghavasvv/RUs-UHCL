@@ -1,0 +1,20 @@
+{
+  "run": {
+    "total_agents": 1000,
+    "total_questions": 50,
+    "expected_total": 50000,
+    "actual_total": 50000
+  },
+  "timing": {
+    "total_seconds": 103083.90,
+    "avg_latency": 2.44,
+    "median_latency": 0.589,
+    "p95_latency": 16.415,
+    "responses_per_second": 0.446
+  },
+  "tokens": {
+    "total_tokens": 58678446,
+    "tokens_per_agent": 58678.45
+  },
+  "timestamp": "2025-10-27T11:20:00+00:00"
+}

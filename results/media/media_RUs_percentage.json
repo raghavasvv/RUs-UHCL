@@ -1,0 +1,46 @@
+[
+  {
+    "question_id": 1,
+    "RU_distribution": {
+      "Right direction": 8.799999999999999,
+      "Wrong direction": 79.4,
+      "No opinion": 11.799999999999999
+    }
+  },
+  {
+    "question_id": 2,
+    "RU_distribution": {
+      "Excellent/Very good": 1.7999999999999998,
+      "Good": 74.2,
+      "Fair/Poor": 21.6,
+      "Not sure": 2.4
+    }
+  },
+  {
+    "question_id": 3,
+    "RU_distribution": {
+      "Excellent/Very good": 1.3,
+      "Good": 23.799999999999997,
+      "Fair/Poor": 73.4,
+      "Not sure": 1.5
+    }
+  },
+  {
+    "question_id": 4,
+    "RU_distribution": {
+      "Excellent/Very good": 1.0,
+      "Good": 50.2,
+      "Fair/Poor": 47.9,
+      "Not sure": 0.8999999999999999
+    }
+  },
+  {
+    "question_id": 5,
+    "RU_distribution": {
+      "Excellent/Very good": 4.3,
+      "Good": 4.1000000000000005,
+      "Fair/Poor": 87.5,
+      "Not sure": 4.1000000000000005
+    }
+  }
+]

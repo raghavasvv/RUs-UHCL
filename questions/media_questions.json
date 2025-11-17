@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "question": "Do you think the U.S. higher education system is headed in the right direction or wrong direction?",
+    "options": ["Right direction", "Wrong direction", "No opinion"]
+  },
+  {
+    "id": 2,
+    "question": "How good a job is the U.S. higher education system doing in advancing research and innovation?",
+    "options": ["Excellent/Very good", "Good", "Fair/Poor", "Not sure"]
+  },
+  {
+    "id": 3,
+    "question": "How good a job is the U.S. higher education system doing in preparing students for well-paying jobs?",
+    "options": ["Excellent/Very good", "Good", "Fair/Poor", "Not sure"]
+  },
+  {
+    "id": 4,
+    "question": "How good a job is the U.S. higher education system doing in developing students’ critical thinking and problem-solving skills?",
+    "options": ["Excellent/Very good", "Good", "Fair/Poor", "Not sure"]
+  },
+  {
+    "id": 5,
+    "question": "How good a job is the U.S. higher education system doing in keeping tuition costs affordable?",
+    "options": ["Excellent/Very good", "Good", "Fair/Poor", "Not sure"]
+  }
+]

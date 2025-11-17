@@ -1,0 +1,193 @@
+[
+  {
+    "insight": "Answered A1 as Moderately Inaccurate"
+  },
+  {
+    "insight": "Answered A2 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered A3 as Moderately Inaccurate"
+  },
+  {
+    "insight": "Answered A4 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered A5 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered A6 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered A7 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered A8 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered A9 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered A10 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O1 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O2 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O3 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O4 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O5 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O6 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O7 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O8 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O9 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered O10 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N1 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N2 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N3 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N4 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N5 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N6 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N7 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N8 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N9 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered N10 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E1 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E2 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E3 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E4 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E5 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E6 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E7 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E8 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E9 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered E10 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered C1 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered C2 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered C3 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered C4 as Moderately Inaccurate"
+  },
+  {
+    "insight": "Answered C5 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered C6 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered C7 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered C8 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered C9 as Moderately Accurate"
+  },
+  {
+    "insight": "Answered C10 as Moderately Accurate"
+  },
+  {
+    "insight": "Rated Jake 7 for intentional harm",
+    "task": "ames_fiske",
+    "condition": "intentional"
+  },
+  {
+    "insight": "Rated 4 for Fair Loss",
+    "task": "cooney_2016",
+    "condition": "Fair_Loss"
+  },
+  {
+    "insight": "Rated 6 for Fair Gain",
+    "task": "cooney_2016",
+    "condition": "Fair_Gain"
+  },
+  {
+    "insight": "Rated 6 for Unfair Loss",
+    "task": "cooney_2016",
+    "condition": "Unfair_Loss"
+  },
+  {
+    "insight": "Rated 7 for Unfair Gain",
+    "task": "cooney_2016",
+    "condition": "Unfair_Gain"
+  },
+  {
+    "insight": "GREEN chose O in without_intervention",
+    "task": "halevy_halali",
+    "condition": "without_intervention"
+  },
+  {
+    "insight": "Rated 1 in Moral-Humanized condition",
+    "task": "rai_2017",
+    "violence_type": "Moral",
+    "condition": "Humanized"
+  },
+  {
+    "insight": "Chose SEND in LowPower condition",
+    "task": "schilke_2015",
+    "condition": "LowPower"
+  }
+]

@@ -1,0 +1,47 @@
+
+[
+  {
+    "id": 1,
+    "human_response_percent": {
+      "Right direction": 38,
+      "Wrong direction": 59,
+      "No opinion": 3
+    }
+  },
+  {
+    "id": 2,
+    "human_response_percent": {
+      "Excellent/Very good": 27,
+      "Good": 28,
+      "Fair/Poor": 32,
+      "Not sure": 14
+    }
+  },
+  {
+    "id": 3,
+    "human_response_percent": {
+      "Excellent/Very good": 12,
+      "Good": 22,
+      "Fair/Poor": 55,
+      "Not sure": 11
+    }
+  },
+  {
+    "id": 4,
+    "human_response_percent": {
+      "Excellent/Very good": 17,
+      "Good": 22,
+      "Fair/Poor": 49,
+      "Not sure": 12
+    }
+  },
+  {
+    "id": 5,
+    "human_response_percent": {
+      "Excellent/Very good": 5,
+      "Good": 7,
+      "Fair/Poor": 79,
+      "Not sure": 9
+    }
+  }
+] 

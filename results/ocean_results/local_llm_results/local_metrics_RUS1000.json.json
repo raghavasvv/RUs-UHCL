@@ -1,0 +1,20 @@
+{
+  "run": {
+    "total_RUs": 1000,
+    "total_questions": 50,
+    "expected_total": 50000,
+    "actual_total": 50000
+  },
+  "timing": {
+    "total_seconds": 142055.9413317,
+    "avg_latency": 2.836029721074002,
+    "median_latency": 2.82343555000989,
+    "p95_latency": 3.207003399991663,
+    "responses_per_second": 0.35197401482314783
+  },
+  "tokens": {
+    "total_tokens": 220631,
+    "tokens_per_agent": 220.631
+  },
+  "timestamp": "2025-10-25T12:55:30.738818+00:00"
+}

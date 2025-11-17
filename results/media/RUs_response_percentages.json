@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "RU_distribution": {
+      "Wrong direction": 79.4,
+      "No opinion": 11.8,
+      "Right direction": 8.8
+    }
+  },
+  {
+    "id": 2,
+    "RU_distribution": {
+      "Good": 74.2,
+      "Fair/Poor": 21.6,
+      "Not sure": 2.4,
+      "Excellent/Very good": 1.8
+    }
+  },
+  {
+    "id": 3,
+    "RU_distribution": {
+      "Fair/Poor": 73.4,
+      "Good": 23.8,
+      "Not sure": 1.5,
+      "Excellent/Very good": 1.3
+    }
+  },
+  {
+    "id": 4,
+    "RU_distribution": {
+      "Good": 50.2,
+      "Fair/Poor": 47.9,
+      "Excellent/Very good": 1.0,
+      "Not sure": 0.9
+    }
+  },
+  {
+    "id": 5,
+    "RU_distribution": {
+      "Fair/Poor": 87.5,
+      "Excellent/Very good": 4.3,
+      "Not sure": 4.1,
+      "Good": 4.1
+    }
+  }
+]

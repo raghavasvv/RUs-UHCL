@@ -1,0 +1,234 @@
+[
+  {
+    "q": "A1",
+    "a": "Very Inaccurate"
+  },
+  {
+    "q": "A2",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "A3",
+    "a": "Very Inaccurate"
+  },
+  {
+    "q": "A4",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "A5",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "A6",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "A7",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "A8",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "A9",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "A10",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O1",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O2",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O3",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O4",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O5",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O6",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O7",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O8",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O9",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O10",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N1",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N2",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N3",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N4",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N5",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N6",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N7",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N8",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N9",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "N10",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E1",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E2",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E3",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E4",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E5",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E6",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E7",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E8",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E9",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "E10",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "C1",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "C2",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "C3",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "C4",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "C5",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "C6",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "C7",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "C8",
+    "a": "Very Inaccurate"
+  },
+  {
+    "q": "C9",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "C10",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "Ames_Fiske_intentional",
+    "a": 7
+  },
+  {
+    "q": "Cooney_Fair_Loss",
+    "a": 4
+  },
+  {
+    "q": "Cooney_Fair_Gain",
+    "a": 6
+  },
+  {
+    "q": "Cooney_Unfair_Loss",
+    "a": 5
+  },
+  {
+    "q": "Cooney_Unfair_Gain",
+    "a": 7
+  },
+  {
+    "q": "Halevy_RED_without_intervention",
+    "a": "Square"
+  },
+  {
+    "q": "Rai_Instrumental_Humanized",
+    "a": 1
+  },
+  {
+    "q": "Schilke_HighPower",
+    "a": "SEND"
+  }
+]

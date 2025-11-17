@@ -1,0 +1,234 @@
+[
+  {
+    "q": "A1",
+    "a": "Moderately Inaccurate"
+  },
+  {
+    "q": "A2",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "A3",
+    "a": "Moderately Inaccurate"
+  },
+  {
+    "q": "A4",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "A5",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "A6",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "A7",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "A8",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "A9",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "A10",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "O1",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "O2",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "O3",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "O4",
+    "a": "Moderately Inaccurate"
+  },
+  {
+    "q": "O5",
+    "a": "Very Accurate"
+  },
+  {
+    "q": "O6",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "O7",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "O8",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "O9",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "O10",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N1",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N2",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N3",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N4",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N5",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N6",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N7",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N8",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N9",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "N10",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "E1",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "E2",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "E3",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "E4",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "E5",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "E6",
+    "a": "Moderately Inaccurate"
+  },
+  {
+    "q": "E7",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "E8",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "E9",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "E10",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "C1",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "C2",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "C3",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "C4",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "C5",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "C6",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "C7",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "C8",
+    "a": "Moderately Inaccurate"
+  },
+  {
+    "q": "C9",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "C10",
+    "a": "Moderately Accurate"
+  },
+  {
+    "q": "Ames_Fiske_unintentional",
+    "a": 3
+  },
+  {
+    "q": "Cooney_Fair_Loss",
+    "a": 4
+  },
+  {
+    "q": "Cooney_Fair_Gain",
+    "a": 6
+  },
+  {
+    "q": "Cooney_Unfair_Loss",
+    "a": 6
+  },
+  {
+    "q": "Cooney_Unfair_Gain",
+    "a": 7
+  },
+  {
+    "q": "Halevy_RED_with_intervention",
+    "a": "Square"
+  },
+  {
+    "q": "Rai_Moral_Humanized",
+    "a": 1
+  },
+  {
+    "q": "Schilke_LowPower",
+    "a": "SEND"
+  }
+]
