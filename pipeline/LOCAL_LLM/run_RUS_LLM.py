@@ -46,7 +46,7 @@ RUS_FILE = PROJECT_ROOT / "RUS" / "synthetic_RUS.json"
 QUESTION_FILE = PROJECT_ROOT / "questions" / "Psychometrics.json"
 RESULTS_DIR = PROJECT_ROOT / "results" / "local_llm_results"
 
-NUM_RUs_TO_RUN = 2  # professor can change this anytime
+NUM_RUs_TO_RUN = 1000  # professor can change this anytime
 
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -271,3 +271,4 @@ def run_rus():
 # =====================================================
 if __name__ == "__main__":
     run_rus()
+
