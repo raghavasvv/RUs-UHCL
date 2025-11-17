@@ -249,27 +249,6 @@ python pipeline/HUMAN_VS_HUMAN/compare_localvshuman.py
 
 ---
 
-## Initialising New RUs
-
-Users may generate a completely new set of RUs by running:
-
-```
-python "pipeline/initialise_RU's.py"
-```
-
-This script generates:
-
-* A new `synthetic_RUS.json`
-* Fresh memory files
-* Fresh reflection files
-* Fresh plan files
-
-Developers running this project for the first time or attempting custom experiments should initialize new RUs before running their pipelines.
-
----
-
-
----
 
 ## Output Directory Structure
 
