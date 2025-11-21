@@ -1,12 +1,3 @@
-"""
-Cooney et al. (2016) – Fairness × Outcome Replication
-Appends to existing cognitive files:
-- memory/RUS_xxxx.json
-- reflections/RUS_xxxx.json
-- plans/RUS_xxxx.json
-Never overwrites OCEAN or Ames data.
-"""
-
 # ------------------------------------------------------------
 # STEP 1 — Auto-detect project root
 # ------------------------------------------------------------
@@ -76,13 +67,31 @@ print(f"✅ Loaded {len(agents)} RUS units")
 # ------------------------------------------------------------
 # STEP 4 — Prompts
 # ------------------------------------------------------------
+# ------------------------------------------------------------
+# STEP 3 – Prompts
+# ------------------------------------------------------------
 PROMPTS = {
-    "Fair_Loss": "You lost a bonus by random coin flip. Rate upset (1–7).",
-    "Fair_Gain": "You received a bonus by random coin flip. Rate happiness (1–7).",
-    "Unfair_Loss": "A person denied you the bonus intentionally. Rate upset (1–7).",
-    "Unfair_Gain": "A person awarded you the bonus intentionally. Rate happiness (1–7)."
+    "Fair_Loss": """
+The decision NOT to give you the bonus was made by a RANDOM COIN FLIP.
+Scale: 1 = Not upset, 7 = Extremely upset.
+Give only a number (1–7).
+""",
+    "Fair_Gain": """
+The decision to GIVE you the bonus was made by a RANDOM COIN FLIP.
+Scale: 1 = Not happy, 7 = Extremely happy.
+Give only a number (1–7).
+""",
+    "Unfair_Loss": """
+The decision NOT to give you the bonus was made by ANOTHER PERSON (unfair).
+Scale: 1 = Not upset, 7 = Extremely upset.
+Give only a number (1–7).
+""",
+    "Unfair_Gain": """
+The decision to GIVE you the bonus was made by ANOTHER PERSON (unfair).
+Scale: 1 = Not happy, 7 = Extremely happy.
+Give only a number (1–7).
+"""
 }
-
 # ------------------------------------------------------------
 # STEP 5 — Query GPT
 # ------------------------------------------------------------
