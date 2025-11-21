@@ -1,36 +1,65 @@
-"""
-Halevy & Halali (2015) – (RU Version)
-Simulates the 'Peacemaker Game' with moral vs selfish trade-off and validated GPT decisions.
-Designed for realistic behavioral variation and statistically significant output.
-"""
-
-import json, math, random, time, pandas as pd
+import json, math, time, pandas as pd, random, re
 from pathlib import Path
+import sys
 from scipy.stats import chi2_contingency, fisher_exact
-from openai import OpenAI
 from dotenv import load_dotenv
+from openai import OpenAI
 
 # ------------------------------------------------------------
-# STEP 1 – Setup
+# 1. AUTODETECT PROJECT ROOT
 # ------------------------------------------------------------
-load_dotenv()
+CURRENT_FILE = Path(__file__).resolve()
+for parent in CURRENT_FILE.parents:
+    if (parent / "pipeline").is_dir() and (parent / "RUS").is_dir():
+        PROJECT_ROOT = parent
+        break
+else:
+    raise RuntimeError("❌ Could not detect project root")
+
+sys.path.append(str(PROJECT_ROOT))
+
+# Managers
+from pipeline.memory_manager import MemoryManager
+from pipeline.reflection_manager import ReflectionManager
+from pipeline.plan_manager import PlanManager
+
+MEMORY_DIR     = PROJECT_ROOT / "memory"
+REFLECTION_DIR = PROJECT_ROOT / "reflections"
+PLAN_DIR       = PROJECT_ROOT / "plans"
+
+memory_manager     = MemoryManager(MEMORY_DIR)
+reflection_manager = ReflectionManager(REFLECTION_DIR)
+plan_manager       = PlanManager(PLAN_DIR)
+
+load_dotenv(PROJECT_ROOT / ".env")
 client = OpenAI()
 
-BASE_DIR = Path(__file__).resolve().parents[2]
-RU_PATH = BASE_DIR / "RUs" / "synthetic_RUs.json"      # UPDATED
-RESULTS_DIR = BASE_DIR / "results"
-RESPONSES_PATH = RESULTS_DIR / "halevy_halali_realistic_responses.csv"
-METRICS_PATH = RESULTS_DIR / "halevy_halali_realistic_metrics.csv"
+# ------------------------------------------------------------
+# 2. Paths
+# ------------------------------------------------------------
+RUS_PATH    = PROJECT_ROOT / "RUS" / "synthetic_RUS.json"
+RESULTS_DIR = PROJECT_ROOT / "results" / "study_results"
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
+
+timestamp = time.strftime("%Y-%m-%d_%H-%M-%S")
+RESPONSES_PATH = RESULTS_DIR / f"halevy_halali_responses_{timestamp}.csv"
+METRICS_PATH   = RESULTS_DIR / f"halevy_halali_metrics_{timestamp}.csv"
 
 # ------------------------------------------------------------
-# STEP 2 – Load RUs
+# 3. Load RUS Units
 # ------------------------------------------------------------
-with open(RU_PATH, "r") as f:
-    RUs = json.load(f)
-print(f"✅ Loaded {len(RUs)} RUs from {RU_PATH}")
+with open(RUS_PATH, "r", encoding="utf-8") as f:
+    rus_units = json.load(f)
+
+for i, r in enumerate(rus_units, start=1):
+    r["RUs_id"] = f"RU_{i:04d}"
+
+total_rus = len(rus_units)
+print(f"Loaded {total_rus} RUS units")
+
 
 # ------------------------------------------------------------
-# STEP 3 – Scenario wording (unchanged)
+# 4. EXACT PROMPTS 
 # ------------------------------------------------------------
 DISPUTE_SCENARIO = """
 You are assigned the role of either RED or BLUE.
@@ -65,166 +94,188 @@ If you choose I, your payoff depends on their choices:
 
 Intervening requires effort but might increase cooperation between RED and BLUE.
 """
+# ------------------------------------------------------------
+# 5. OpenAI Query
+# ------------------------------------------------------------
+def ask_openai(prompt):
+    try:
+        r = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "Respond ONLY with the choice number."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=10,
+            temperature=0.9
+        )
+        return r.choices[0].message.content.strip()
+    except Exception as e:
+        print("❌ OpenAI error:", e)
+        return ""
 
 # ------------------------------------------------------------
-# STEP 4 – Helper GPT call
+# 6. Extract ONLY OCEAN memory
 # ------------------------------------------------------------
-def ask_gpt(prompt, temp):
-    """Ask GPT with retries and validation."""
-    for _ in range(3):
-        try:
-            response = client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=[
-                    {"role": "system", "content": "You are an RU participant in a behavioral experiment. Respond only with numeric choice."},
-                    {"role": "user", "content": prompt}
-                ],
-                max_tokens=20,
-                temperature=temp
-            )
-            t = response.choices[0].message.content.strip()
-            if "1" in t or "2" in t:
-                return t
-        except Exception:
-            time.sleep(0.5)
-    return random.choice(["1", "2"])
+def get_ocean_memory(ru_file_id):
+    mem = memory_manager.load(ru_file_id) or []
+    return [
+        m for m in mem
+        if isinstance(m, dict)
+        and "q" in m
+        and m["q"][0] in ("O", "C", "E", "A", "N")
+    ]
 
 # ------------------------------------------------------------
-# STEP 5 – Disputant and Third Party Decision Functions
+# 7. Third Party (GREEN)
 # ------------------------------------------------------------
-def disputant_decision(RU, condition):
-    temp = 1.4 if RU["age"] < 30 else 1.0
-    if condition == "without_intervention":
-        temp += 0.1
+def third_party_decision(ru):
+    ru_id = ru["RUs_id"]
+    ru_file_id = f"RUS_{ru_id.split('_')[1]}"
+
+    ocean = get_ocean_memory(ru_file_id)
+    ocean_text = "\n".join(f"{m['q']}: {m['a']}" for m in ocean[-50:])
 
     prompt = f"""
-You are {RU['persona']}.
-{DISPUTE_SCENARIO}
+You are {ru.get('persona','a participant')}.
 
-{"You have heard that a neutral third party (GREEN) might intervene to make peace and encourage fairness." if condition=="with_intervention" else "There is no third party who can intervene. The other person will act in their own self-interest. Decide what maximizes your own gain."}
+Use ONLY your OCEAN answers:
+{ocean_text}
 
-Choose your action clearly:
-1. △ TRIANGLE – cooperate.
-2. ▢ SQUARE – compete.
-Answer ONLY with 1 or 2.
-"""
-    t = ask_gpt(prompt, temp)
-    return "Triangle" if "1" in t else "Square"
-
-
-def third_party_decision(RU):
-    temp = 1.2 if RU["age"] < 35 else 0.8
-    prompt = f"""
-You are {RU['persona']}.
 {THIRD_PARTY_SCENARIO}
 
-Choose your action clearly:
-1. I – Intervene
-2. O – Do not intervene
-Answer ONLY with 1 or 2.
+Choose:
+1 = I (Intervene)
+2 = O (Observe)
 """
-    t = ask_gpt(prompt, temp)
-    return "I" if "1" in t else "O"
+
+    ans = ask_openai(prompt)
+    choice = "I" if ans.startswith("1") else "O"
+
+    memory_manager.append(ru_file_id, {"q": "Halevy_GREEN", "a": choice})
+    reflection_manager.append(ru_file_id, {"insight": f"Chose {choice} as GREEN"})
+    plan_manager.append(ru_file_id, {"next_action": "Reflect on intervention"})
+
+    return choice
 
 # ------------------------------------------------------------
-# STEP 6 – Group RUs into trios
+# 8. RED / BLUE Decisions
 # ------------------------------------------------------------
-random.shuffle(RUs)
-groups = [RUs[i:i+3] for i in range(0, len(RUs), 3)]
+def disputant_decision(ru, condition, role):
+    ru_id = ru["RUs_id"]
+    ru_file_id = f"RUS_{ru_id.split('_')[1]}"
+
+    ocean = get_ocean_memory(ru_file_id)
+    ocean_text = "\n".join(f"{m['q']}: {m['a']}" for m in ocean[-50:])
+
+    prompt = f"""
+You are {ru.get('persona','a participant')}.
+
+Use ONLY your OCEAN answers:
+{ocean_text}
+
+{DISPUTE_SCENARIO}
+
+Condition: {condition}
+
+Choose:
+1 = △ (Cooperate)
+2 = ▢ (Compete)
+"""
+
+    ans = ask_openai(prompt)
+    choice = "Triangle" if ans.startswith("1") else "Square"
+
+    memory_manager.append(ru_file_id, {"q": f"Halevy_{role}", "a": choice})
+    reflection_manager.append(ru_file_id, {"insight": f"{role} → {choice}"})
+    plan_manager.append(ru_file_id, {"next_action": "Reflect on cooperation"})
+
+    return choice
+
+groups = [
+    rus_units[i:i+3]
+    for i in range(0, total_rus, 3)
+    if len(rus_units[i:i+3]) == 3
+]
+
+# ------------------------------------------------------------
+# 9. Run Simulation
+# ------------------------------------------------------------
 results = []
+processed = 0
 
-# ------------------------------------------------------------
-# STEP 7 – Run Simulation
-# ------------------------------------------------------------
-for idx, g in enumerate(groups):
-    if len(g) < 3:
-        continue
+print("\n🧠 Running Halevy & Halali...\n")
 
-    RED_RU, BLUE_RU, GREEN_RU = g  # renamed
+for g in groups:
+    RED, BLUE, GREEN = g
 
-    green_choice = third_party_decision(GREEN_RU)
-    condition = "with_intervention" if green_choice == "I" else "without_intervention"
+    green_choice  = third_party_decision(GREEN)
+    condition     = "with_intervention" if green_choice == "I" else "without_intervention"
 
-    red_choice = disputant_decision(RED_RU, condition)
-    blue_choice = disputant_decision(BLUE_RU, condition)
+    red_choice    = disputant_decision(RED,  condition, "RED")
+    blue_choice   = disputant_decision(BLUE, condition, "BLUE")
 
     results.append({
-        "group_id": idx+1,
-        "RED_RU_id": RED_RU["RU_id"],        # UPDATED
-        "RED_choice": red_choice,
-        "BLUE_RU_id": BLUE_RU["RU_id"],      # UPDATED
-        "BLUE_choice": blue_choice,
-        "GREEN_RU_id": GREEN_RU["RU_id"],    # UPDATED
+        "RED": RED["RUs_id"],
+        "BLUE": BLUE["RUs_id"],
+        "GREEN": GREEN["RUs_id"],
         "GREEN_choice": green_choice,
-        "condition": condition
+        "condition": condition,
+        "RED_choice": red_choice,
+        "BLUE_choice": blue_choice
     })
 
-    time.sleep(0.7)
+    processed += 3
+    print(f"Progress: {processed}/{total_rus}")
 
-# ------------------------------------------------------------
-# STEP 8 – Save responses
-# ------------------------------------------------------------
-RESULTS_DIR.mkdir(exist_ok=True)
+    time.sleep(0.15)
+
 df = pd.DataFrame(results)
 df.to_csv(RESPONSES_PATH, index=False)
-print(f"✅ Responses saved to {RESPONSES_PATH}")
+print(f"\nResponses saved → {RESPONSES_PATH}")
 
 # ------------------------------------------------------------
-# STEP 9 – Compute Statistics
+# 10. Metrics
 # ------------------------------------------------------------
-with_int = df[df["condition"] == "with_intervention"]
+with_int  = df[df["condition"] == "with_intervention"]
 without_i = df[df["condition"] == "without_intervention"]
 
-coop_with = ((with_int["RED_choice"]=="Triangle") & (with_int["BLUE_choice"]=="Triangle")).sum()
-coop_without = ((without_i["RED_choice"]=="Triangle") & (without_i["BLUE_choice"]=="Triangle")).sum()
+coop_with    = ((with_int.RED_choice=="Triangle") & (with_int.BLUE_choice=="Triangle")).sum()
+coop_without = ((without_i.RED_choice=="Triangle") & (without_i.BLUE_choice=="Triangle")).sum()
 
-len_with, len_without = len(with_int), len(without_i)
-rate_with = coop_with / len_with if len_with > 0 else 0
-rate_without = coop_without / len_without if len_without > 0 else 0
+len_with     = len(with_int)
+len_without  = len(without_i)
 
-table = [[coop_with, len_with - coop_with],
-         [coop_without, len_without - coop_without]]
+rate_with    = coop_with/len_with if len_with else 0
+rate_without = coop_without/len_without if len_without else 0
+
+table = [
+    [coop_with, len_with-coop_with],
+    [coop_without, len_without-coop_without]
+]
 
 try:
-    chi2, p, dof, exp = chi2_contingency(table)
-    h = 2 * math.asin(math.sqrt(rate_with)) - 2 * math.asin(math.sqrt(rate_without))
-    p_val, h_val = round(p, 5), round(abs(h), 3)
-    sig = "Yes" if p < 0.05 else "No"
-except ValueError:
+    chi2, p, _, _ = chi2_contingency(table)
+except:
     _, p = fisher_exact(table)
-    chi2, p_val = 0, round(p, 5)
-    h_val = round(abs(2*math.asin(math.sqrt(rate_with)) - 2*math.asin(math.sqrt(rate_without))), 3)
-    sig = "Yes" if p < 0.05 else "No"
-    print("⚠️ Used Fisher’s Exact Test (chi-square not applicable).")
+    chi2 = 0
 
-intervention_rate = (df["GREEN_choice"]=="I").sum() / len(df)
+h = 2 * abs(
+    math.asin(math.sqrt(rate_with)) -
+    math.asin(math.sqrt(rate_without))
+)
 
 metrics = {
     "groups_total": len(df),
-    "intervention_rate": round(intervention_rate,3),
-    "coop_with": f"{coop_with}/{len_with} ({round(rate_with*100,1)}%)",
-    "coop_without": f"{coop_without}/{len_without} ({round(rate_without*100,1)}%)",
+    "intervention_rate_%": round(df.GREEN_choice.eq("I").mean()*100,1),
+    "coop_with_intervention_%": round(rate_with*100,1),
+    "coop_without_intervention_%": round(rate_without*100,1),
     "chi_square": round(chi2,3),
-    "p_value": p_val,
-    "cohens_h": h_val,
-    "replication_success": sig
+    "p_value": round(p,5),
+    "cohens_h": round(h,3),
+    "replication_success": "Yes" if p < 0.05 else "No"
 }
 
 pd.DataFrame([metrics]).to_csv(METRICS_PATH, index=False)
-print(f"✅ Metrics saved to {METRICS_PATH}")
 
-# ------------------------------------------------------------
-# STEP 10 – Summary
-# ------------------------------------------------------------
-print("\n📊 SUMMARY")
-print(f"Groups = {len(df)}")
-print(f"Third-party intervention rate = {round(intervention_rate*100,1)}%")
-print(f"Cooperation WITH intervention = {round(rate_with*100,1)}%")
-print(f"Cooperation WITHOUT intervention = {round(rate_without*100,1)}%")
-print(f"Chi-square = {chi2:.3f}, p = {p_val}")
-print(f"Cohen’s h = {h_val}")
-if sig == "Yes":
-    print("✅ Significant difference → replication successful.")
-else:
-    print("❌ Not significant → no replication.")
-print("🎯 Realistic GPT-based Halevy & Halali replication completed.\n")
+print(f"Metrics saved → {METRICS_PATH}")
+print("\n🎯 Halevy & Halali (2015) – Completed.\n")
