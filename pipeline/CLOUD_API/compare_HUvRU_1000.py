@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[2]   # points to capstone3/
 HUMAN_DIR = ROOT / "human"
 
 HUMAN_FILE = HUMAN_DIR / "human_responses_phase1.csv"
-RUS_FILE = ROOT / "results" / "ocean_results" / "cloud_responses_1000.csv"  # ✅ verified exact path
+RUS_FILE = ROOT / "results" / "ocean_results" / "cloud_responses_1000.csv"  # change path accordingly
 RESULTS_DIR = ROOT / "results" / "ocean_results"
 
 # -----------------------------------------------------
