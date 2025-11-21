@@ -7,16 +7,16 @@ from openai import OpenAI
 # ======================================================
 # Path setup
 # ======================================================
-ROOT = Path(__file__).resolve().parents[2]  # ✅ fixed: go two levels up to /capstone3
+ROOT = Path(__file__).resolve().parents[2]  
 RUS_FILE = ROOT / "RUS" / "synthetic_RUS.json"
 MEDIA_Q_FILE = ROOT / "questions" / "media_questions.json"
 RESULTS_DIR = ROOT / "results" / "media"
-RESULTS_CSV = RESULTS_DIR / "media_RUs.csv"   # ✅ persistent output file
+RESULTS_CSV = RESULTS_DIR / "media_RUs.csv"  
 
 # ======================================================
 # Run configuration
 # ======================================================
-NUM_RUs_TO_RUN = 100  # 👈 change this number (e.g., 100, 250, 500, 1000)
+NUM_RUs_TO_RUN = 100  # change this number (e.g., 100, 250, 500, 1000)
 
 # ======================================================
 # Load API key (cross-platform safe)
@@ -54,7 +54,7 @@ def load_rus():
     for i, r in enumerate(rus_units, start=1):
         r.setdefault("RUs_id", f"RU_{i:03d}")
 
-    print(f"✅ Successfully loaded {len(rus_units)} total RUs from file.")
+    print(f"Successfully loaded {len(rus_units)} total RUs from file.")
     return rus_units[:NUM_RUs_TO_RUN]
 
 
