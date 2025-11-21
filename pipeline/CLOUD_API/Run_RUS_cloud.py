@@ -3,9 +3,7 @@ Run_RUS_cloud.py – GPT-4o-mini Runner (CLEAN VERSION)
 ------------------------------------------------------------
 • Choose number of RUs
 • Choose number of questions
-• NO flooding terminal output
 • CSV includes question_id, options, response_num, etc.
-• Memory + Reflection still works (silent prints)
 ------------------------------------------------------------
 """
 
