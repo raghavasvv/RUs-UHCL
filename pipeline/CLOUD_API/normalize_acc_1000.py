@@ -6,8 +6,6 @@ import matplotlib.pyplot as plt
 # 1. Portable Path Setup
 # =====================================================
 CURRENT_FILE = Path(__file__).resolve()
-
-# Walk upward until we find project root (contains "human" and "results")
 for parent in CURRENT_FILE.parents:
     if (parent / "human").is_dir() and (parent / "results").is_dir():
         ROOT = parent
