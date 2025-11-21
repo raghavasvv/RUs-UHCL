@@ -1,5 +1,5 @@
 """
-Run_RUS_cloud.py – GPT-4o-mini Runner (CLEAN VERSION)
+Run_RUS_cloud.py 
 ------------------------------------------------------------
 • Choose number of RUs
 • Choose number of questions
@@ -35,8 +35,8 @@ from pipeline.reflection_manager import ReflectionManager
 NUM_RUs_TO_RUN = 5             # <---- Choose number of RUs
 NUM_QUESTIONS_TO_USE = 5     # <---- Choose number of questions
 
-RUS_FILE       = ROOT / "RUS" / "generated_RUS_20251120_105651.json"
-QUESTION_FILE  = ROOT / "questions" / "Psychometrics.json"
+RUS_FILE       = ROOT / "RUS" / "generated_RUS_20251120_105651.json" #change to your file name here
+QUESTION_FILE  = ROOT / "questions" / "Psychometrics.json" #change to your question file name here
 
 RESULTS_DIR = ROOT / "results" / "OCEAN_results"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
