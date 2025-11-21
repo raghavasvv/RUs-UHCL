@@ -1,7 +1,5 @@
 """
 Final tuned replication of Schilke, Reimann & Cook (2015) – RUS Version
-APPENDS to: /memory /plans /reflections (RUS_0001.json → RUS_1000.json)
-Keeps previous studies (OCEAN + AmesFiske + Cooney + Halevy + Rai).
 """
 
 # ------------------------------------------------------------
