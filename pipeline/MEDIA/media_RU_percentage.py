@@ -5,8 +5,8 @@ from pathlib import Path
 # -----------------------------
 # Paths
 # -----------------------------
-CSV_PATH = Path("/Users/rachurivijay/Desktop/Capstone/teamross/capstone3/results/media/media_RUs.csv")  # ✅ changed file
-OUTPUT_JSON = Path("/Users/rachurivijay/Desktop/Capstone/teamross/capstone3/results/media/RUs_response_percentages.json")  # ✅ renamed output
+CSV_PATH = Path("/Users/rachurivijay/Desktop/Capstone/teamross/capstone3/results/media/media_RUs.csv")  #change path accordingly
+OUTPUT_JSON = Path("/Users/rachurivijay/Desktop/Capstone/teamross/capstone3/results/media/RUs_response_percentages.json")  ##change path accordingly
 
 # -----------------------------
 # Load data
@@ -15,7 +15,7 @@ df = pd.read_csv(CSV_PATH)
 
 # Expected columns: RUs_id, question_id, response (and maybe timestamp)
 if "question_id" not in df.columns or "response" not in df.columns:
-    raise ValueError("❌ CSV must contain 'question_id' and 'response' columns.")
+    raise ValueError("CSV must contain 'question_id' and 'response' columns.")
 
 # -----------------------------
 # Compute percentages
@@ -30,7 +30,7 @@ for qid, group in df.groupby("question_id"):
     # Build dictionary for this question
     entry = {
         "id": int(qid),
-        "RU_distribution": {opt: float(pct) for opt, pct in counts.items()}  # ✅ changed key from agent_distribution → RU_distribution
+        "RU_distribution": {opt: float(pct) for opt, pct in counts.items()}  
     }
     output_data.append(entry)
 
