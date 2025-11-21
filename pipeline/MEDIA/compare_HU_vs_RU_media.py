@@ -6,12 +6,12 @@ from scipy.spatial.distance import jensenshannon
 # -------------------------
 # Paths
 # -------------------------
-ROOT = Path(__file__).resolve().parents[2]  # ✅ one level up to /capstone3
+ROOT = Path(__file__).resolve().parents[2]  
 RESULTS_DIR = ROOT / "results" / "media"
 
 RUS_FILE = ROOT / "results" / "media" / "media_RUs.csv"   # ✅ changed file name
 HUMAN_FILE = ROOT / "results" / "media" / "media_human_resp.json"
-OUT_JSON = RESULTS_DIR / "media_RUs_percentage.json"       # ✅ renamed output
+OUT_JSON = RESULTS_DIR / "media_RUs_percentage.json"       
 
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -22,7 +22,7 @@ rus_df = pd.read_csv(RUS_FILE)
 with open(HUMAN_FILE, "r") as f:
     human_data = json.load(f)
 
-print(f"✅ Loaded {len(rus_df)} RU responses and {len(human_data)} human survey questions")
+print(f"Loaded {len(rus_df)} RU responses and {len(human_data)} human survey questions")
 
 # -------------------------
 # Compute RU percentage per question
@@ -44,7 +44,7 @@ for q in human_data:
             counts.setdefault(resp, 0)
 
     percentages = {opt: (v / total) * 100 if total else 0 for opt, v in counts.items()}
-    rus_results.append({"question_id": qid, "RU_distribution": percentages})  # ✅ renamed key
+    rus_results.append({"question_id": qid, "RU_distribution": percentages})  # renamed key
 
 # -------------------------
 # Save RU percentage JSON
@@ -127,7 +127,7 @@ label_bars(bars2)
 plt.tight_layout()
 plt.savefig(RESULTS_DIR / "media_RUs_metrics_bar.png", dpi=300)
 plt.close()
-print(f"🖼️ Saved detailed bar chart → {RESULTS_DIR / 'media_RUs_metrics_bar.png'}")
+print(f" Saved detailed bar chart → {RESULTS_DIR / 'media_RUs_metrics_bar.png'}")
 
 # === Average Metrics Graph (Fixed Label Overlap) ===
 avg_kl = df["kl_divergence"].mean()
@@ -166,4 +166,4 @@ plt.tight_layout(pad=2.0)
 plt.savefig(RESULTS_DIR / "media_RUs_metrics_average.png", dpi=300, bbox_inches="tight")
 plt.close()
 
-print(f"🖼️ Saved average metrics chart → {RESULTS_DIR / 'media_RUs_metrics_average.png'}")
+print(f"Saved average metrics chart → {RESULTS_DIR / 'media_RUs_metrics_average.png'}")
